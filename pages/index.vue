@@ -1,28 +1,6 @@
 <template>
 
-<div class="container">
-    <img src="./imagens/logo.png" alt="logo" class="logo"/>
 
-    <a href="./index.html"> <button class="botao ajuste">Inicio</button></a> 
-    <a href="./recursos.html"><button class="botao">Recursos</button></a>  
-    <a href="./quemsomos.html"> <button class="botao">Quem Somos</button></a> 
-    <a href="./topicos.html"> <button class="botao">Tópicos</button></a> 
-    <a href="./login.html"> <button class="botao">Entrar</button></a> 
-
-    <p class="distperfil">Perfil</p><button type="button" class="perfil">
-    <img src="./imagens/user1.png" class="fotoperfil"></button>
-    
-    </div>
-
-    <section class="bg">
-
-    <div id="divbusca">
-
-        <input type="text" id="txtbusca" placeholder="Buscar..."/>
-
-        <img src="./imagens/magnifying-glass-solid.svg" class="lupaimg" id="btnlupa" alt="lupa"/>
-
-    </div>
 
     <div class="container content">
         
@@ -41,23 +19,16 @@
     
         </div>
     
-        </div>
+    </div>
         
     
     
         
     
-        </section>
+        <!--</section>-->
     
         
     
-    
-        <!--  validar depois os links  -->
-    
-        
-        <!-- depois inserir a imagem -->
-    
-
     
 
 </template>

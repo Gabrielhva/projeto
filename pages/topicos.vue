@@ -1,27 +1,60 @@
+
+
+<script setup>
+
+let categoria = ref("depressao")
+
+function alteraTopicos(valor){
+  categoria.value = valor
+}
+
+
+
+</script>
+
 <template>
 <div class="divisao">
-
+<hr>
   <div class="topicos">
-    <p>Topicos</p>
+  <hr>
+    <p> <strong>Topicos</strong></p>
     <ul>
-      <li>Autismo</li>
-      <li>Depressão</li>
-      <li>Bipolaridade</li>
-      <li>Boderlaine</li>
-      <li>Esquizofrenia</li>
-      <li></li>
+      <li v-on:click="alteraTopicos('autismo')" >Autismo</li>
+      <li v-on:click="alteraTopicos('depressao')">Depressão</li>
+      <li v-on:click="alteraTopicos('bipolaridade')">Bipolaridade</li>
+      <li v-on:click="alteraTopicos('boderlaine')">Boderlaine</li>
+      <li v-on:click="alteraTopicos('esquizofrenia')">Esquizofrenia</li>
+      <li v-on:click="alteraTopicos('Transtorno de estresse pos traumatico')">Transtorno de estresse pós-traumatico</li>
+      <li v-on:click="alteraTopicos('Transtorno obcessivo-compulsivo')">Transtorno Obcessivo-compulsivo</li>
+      <li v-on:click="alteraTopicos('depedencia alcolica')">Depedencia Alcoólica</li>
+      <li v-on:click="alteraTopicos('depedencia de drogas ilicitas')">Depedencia de Drogas Ilicitas</li>
+      <li v-on:click="alteraTopicos('depedencia de medicamentos')">Depedencia de Medicamentos</li>
     </ul>
 
   </div>
-  <div>
-    <h2>Autismo</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-      A, cum asperiores accusantium repellat molestiae fuga expedita 
-      dolore, ipsa voluptatum, 
-      incidunt non quam blanditiis ab consequuntur architecto magnam
-      fugit iure voluptas?</p>
-    </div>
+
+
+  <div class="conteudo">
+
+    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
+    <div v-if="categoria=='depressao'"><TopicosDepressao/></div>
+    <div v-if="categoria=='bipolaridade'"><TopicosBipolaridade/></div>
+    <div v-if="categoria=='boderlaine'"><TopicosBoderlaine/></div>
+    <div v-if="categoria=='esquizofrenia'"><TopicosEsquizofrenia/></div>
+    <div v-if="categoria=='Transtorno de estresse pos traumatico'"><TopicosTranstornodeestressepostraumatico/></div>
+    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
+    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
+    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
+    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
+    
+    
+
+
+
   </div>
+    
+</div>
+  
     
 </template>
 
@@ -51,6 +84,10 @@ li:hover{
 .topicos{
   text-align: center;
   width: 800px;
+}
+
+.conteudo{
+  width: 100%;
 }
 
 </style>

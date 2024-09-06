@@ -9,7 +9,7 @@
     
         <div>
     
-         <ol class="textopag"> <p><strong>Bem vindo(a) ao Portal Saúde+</strong></p>
+         <ol class="textopag fonte"> <p><strong>Bem vindo(a) ao Portal Saúde+</strong></p>
     
             <P>Sua jornada para uma vida mais saudável começa aqui. <span class="textocor">No Portal Saúde+</span>, nossa missão é fornecer a você as melhores informações, ferramentas e recursos para cuidar do seu bem-estar mental.</P>
             <p>Estamos comprometidos em apoiar sua saúde e promover um estilo de vida ativo e pleno. Navegue, descubra e dê o primeiro passo para transformar sua saúde hoje!</p>
@@ -36,5 +36,5 @@
 
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;1,700&display=swap');
 </style>

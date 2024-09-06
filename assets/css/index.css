@@ -225,4 +225,9 @@ a{
   z-index: 1;
 }
 
+.fonte{
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 

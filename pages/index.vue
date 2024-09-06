@@ -1,10 +1,11 @@
 <template>
 
 
+<section class="bg">
 
     <div class="container content">
         
-        <img class="medicos" src="./imagens/medico.jpg"/>
+        <img class="medicos" src="/public/medico.jpg"/>
     
         <div>
     
@@ -25,10 +26,15 @@
     
         
     
-        <!--</section>-->
+</section>
     
         
     
     
 
 </template>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,400;1,700&display=swap');
+</style>

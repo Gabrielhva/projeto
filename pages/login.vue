@@ -1,5 +1,7 @@
 <script>
 
+
+
          function enviaFormulario(e){
 
             e.preventDefault();  
@@ -59,11 +61,11 @@
         <p> Use sua conta para acessar seu painel de usuário </p>
         <br/>
 
-        <p> Ainda nao tem uma conta? Cadastre-se agora mesmo. <a href="./cadastrar.html"> clicando aqui </a> </p>
+        <p> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastrar"> clicando aqui </NuxtLink></p> 
          <!-- depois validar -->
          <br/>
 
-         <form action="./index.html">
+         <form action="/index">
             <p> E-mail: </p>
            <input/>
 

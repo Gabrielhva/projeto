@@ -1,0 +1,228 @@
+.aumento_medico_posicao {
+    padding-left: 500px;
+    font-family: monospace;
+    font-size: large;
+
+}
+
+.aumento_botao_posicao {
+    margin-top: 500px;
+    margin-left: 2000px;
+    background: transparent;
+
+}
+
+section{
+
+    background-image: url("/imagens/gradiente2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ 
+.fundo{
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 1000px;
+    
+}
+ 
+.logo{
+    width: 300px;
+    height: 30x;
+    
+}
+ 
+.fotoperfil{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+   
+}
+body{
+    margin: 0;
+ 
+}
+ 
+a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 30px;
+ 
+}
+ 
+ 
+.botao{
+    border: solid 1px rgb(5, 179, 135);
+    border-radius: 20px;
+    color: rgb(0, 255, 191);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family:monospace ;
+    font-size: 30px;
+    white-space: nowrap;
+    
+}
+.botao:hover{
+    background-color: #00796B;
+    color: #FFFFFF;
+    transform: scale(1.2)
+}
+ 
+ 
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+ 
+.perfil{
+    border: solid 1px blue;
+    border-radius: 100%;
+    color: rgb(0, 255, 191);
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 85px;
+    padding-bottom: 85px;
+ 
+   
+    width: 80px;
+    height: 80px;
+}
+ 
+.perfil:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 115);
+    transform: scale(1.2)
+}
+ 
+.distperfil{
+   
+    margin-left: 328px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+ 
+#divbusca{
+    background-color: #05b9a4;
+    border:solid 1px;
+    border-radius:5px;
+    width:500px;
+    margin-left: 340px;
+   
+  }
+ 
+  #txtbusca{
+    float: left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+   
+  }
+ 
+  .lupaimg{
+    height: 30px;
+    margin-left: 200px;
+  }
+ 
+.medicos{
+    width: 500px;
+    height: 470px;
+    margin-top: 20px;
+    margin-left: 340px;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.textopag{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+
+}
+
+.textocor{
+
+    color: rgb(255, 255, 255);
+}
+ 
+.botaolupa{
+
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 40px;
+    
+}
+
+.ajuste{
+
+    margin-left: 207px;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+   
+    align-items:center;
+    justify-content:center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, rgb(0, 252, 126) 0%, rgb(0, 255, 170) 25%, rgb(0, 255, 106) 51%, #35aeff 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+    animation: AnimateBG 20s ease infinite;
+    position: absolute;
+    z-index: -1;
+    
+  }
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.content{
+
+    
+  position: relative;
+  z-index: 1;
+}
+
+

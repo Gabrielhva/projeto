@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+
+.perfil{
+    border: solid 1px blue;
+    border-radius: 100%;
+    color: rgb(0, 255, 191);
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    margin-left: 0;
+    margin-right: 0px;
+    padding-left: 0;
+    padding-top: 0;
+   padding-right: 85px;
+   padding-bottom: 85px;
+    
+    
+    width: 80px;
+    height: 80px;
+}
+
+.perfil:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 115);
+    transform: scale(1.1)
+}
+
+.distperfil{
+    
+    padding-left: 290px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: -28px;
+}
+
+.fotoperfil{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+   
+}
+
+
+.flex_container{
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 34%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    text-align:center;
+    margin-left: 0;
+}
+
+h1{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 40px;
+    
+}
+
+.fundo{
+
+padding-top: 10px;
+background-image:url("/imagens/gradiente3.avif");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+border-radius: 50px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.botao{
+    border: solid 1px rgb(5, 179, 135);
+    border-radius: 20px;
+    color: rgb(0, 255, 191);
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family:monospace ;
+    font-size: 30px;
+    white-space: nowrap;
+    
+}
+.botao:hover{
+    background-color: #00796B;
+    color: #FFFFFF;
+    transform: scale(1.2)
+}
+
+.logo{
+    width: 300px;
+    height: 30x;
+}
+
+.ajuste{
+
+    margin-left: 210px;
+}

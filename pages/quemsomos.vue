@@ -32,7 +32,7 @@
             questionários de autoavaliação e chat com profissionais de saúde.</li>
         </ul>
         <br/>
-        <p> Encontre ajuda  <a href="./ " target="_blank" > clicando aqui </a> .</p>
+        <p> Encontre ajuda  <NuxtLink to="/ " target="_blank" > clicando aqui.</NuxtLink></p>
         <!--Encontre ajuda linkar com encotre ajuda-->
 
     

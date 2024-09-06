@@ -1,77 +1,56 @@
-
-
-
-<script>
-  export default {
-    data() {
-      return {
-        topicos: [
-          'Autismo',
-          'Bipolaridade',
-          'Bordelaine',
-          'Depressão',
-          'Esquizofrenia',
-          'Transtorno de estresse pós-traumático',
-          'Transtorno Obsessivo-Compulsivo'
-        ],
-        dependencias: [
-          'Dependência alcoólica',
-          'Dependência de Drogas Ilícitas',
-          'Dependência de Medicamentos'
-        ]
-      };
-    },
-    methods: {
-      handleClick(item) {
-      /* handclick Essa função será executada sempre que um botão for clicado. 
-      A função recebe um parâmetro event , que representa o evento 
-      de clique. Isso permite que a função saiba qual elemento foi 
-      clicado e obtenha informações sobre esse evento */
-        alert(`Você clicou em: ${item}`);
-      }
-    }
-  };
-  </script>
-
 <template>
-    <div>
-      <h2>Tópicos</h2>
-      <div class="button-container">
-        <div v-for="topico in topicos" :key="topico">
-          <button @click="handleClick(topico)">{{ topico }}</button>
-        </div>
-      </div>
-  
-      <h2>Dependências</h2>
-      <div class="button-container">
-        <div v-for="dependencia in dependencias" :key="dependencia">
-          <button @click="handleClick(dependencia)">{{ dependencia }}</button>
-        </div>
-      </div>
+<div class="divisao">
+
+  <div class="topicos">
+    <p>Topicos</p>
+    <ul>
+      <li>Autismo</li>
+      <li>Depressão</li>
+      <li>Bipolaridade</li>
+      <li>Boderlaine</li>
+      <li>Esquizofrenia</li>
+      <li></li>
+    </ul>
+
+  </div>
+  <div>
+    <h2>Autismo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      A, cum asperiores accusantium repellat molestiae fuga expedita 
+      dolore, ipsa voluptatum, 
+      incidunt non quam blanditiis ab consequuntur architecto magnam
+      fugit iure voluptas?</p>
     </div>
+  </div>
+    
+</template>
 
-    <NuxtLink to="/">voltar</NuxtLink>
-  </template>
-  
-  
-  
-  <style scoped>
-  .button-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #006400; /* Verde escuro */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  </style>
+<style scoped>
 
-  
-  
+ul{
+  margin-right: 30px;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 20px;
+  background: green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+li:hover{
+  background: darkgreen;
+  transition: 0.3s;
+}
+
+.divisao{
+  display: flex;
+}
+.topicos{
+  text-align: center;
+  width: 800px;
+}
+
+</style>

@@ -34,9 +34,11 @@ import '~/assets/css/index.css'
     <input type="text" class="input-search" placeholder="Buscar...">
     </div>
 
+    
     <p class="distperfil">Perfil</p><button type="button" class="perfil">
     <img src="/public/user1.png" class="fotoperfil"></button>
-    
+   
+
     </div>
 
     <!--<section class="bg">-->

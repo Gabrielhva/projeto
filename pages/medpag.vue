@@ -1,14 +1,7 @@
-<script>
+<script setup>
 
 
-const medicos = reactive([
-  { 
-      id: 0,  
-      medico: "Gabriel",
-      espec: "Depressão"
-      
-  }
-])
+const params = defineProps(["medicos"]);
 
 </script>
 
@@ -25,14 +18,12 @@ const medicos = reactive([
 <div class="flex_container">
 
     
+    <Medicos v-bind:Medicos="Medicos"/>
+    
+    
+    
 
-    <div> 
-
-        <button type="button" class="perfil"> <img src="./imagens/user1.png" class="fotoperfil"></button> 
-        <p>Gabriel</p>
-        <p>Psicologo</p>
-        
-    </div>
+     
 
     <div> 
 

@@ -2,20 +2,9 @@
 
 import '~/assets/css/index.css'
 
-
-</script>
-
-
-<template>
-  
-<Head>
-
-<Script src="https://kit.fontawesome.com/e9b73e9254.js">
-
-
 const medicos = reactive ([
   {
-    nome: "Ana Silva",
+    nome: "Ana Silva da Silva",
     dataNascimento: "1985-06-15",
     email: "ana.silva@example.com",
     telefone: "(11) 98765-4321",
@@ -96,9 +85,14 @@ const medicos = reactive ([
   }
 ])
 
+</script>
 
 
-</Script>
+<template>
+  
+<Head>
+
+<Script src="https://kit.fontawesome.com/e9b73e9254.js"></Script>
 
 </Head>
  

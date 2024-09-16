@@ -1,3 +1,20 @@
+<script>
+
+
+const medicos = reactive([
+  { 
+      id: 0,  
+      medico: "Gabriel",
+      espec: "Depressão"
+      
+  }
+])
+
+</script>
+
+
+
+
 <template>
 
 

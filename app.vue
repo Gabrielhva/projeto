@@ -13,6 +13,90 @@ import '~/assets/css/index.css'
 <Script src="https://kit.fontawesome.com/e9b73e9254.js">
 
 
+const medicos = reactive ([
+  {
+    nome: "Ana Silva",
+    dataNascimento: "1985-06-15",
+    email: "ana.silva@example.com",
+    telefone: "(11) 98765-4321",
+    numeroRegistroProfissional: "CRP-12345",
+    desordem: "autismo"
+  },
+  {
+    nome: "Carlos Souza",
+    dataNascimento: "1990-04-22",
+    email: "carlos.souza@example.com",
+    telefone: "(21) 99876-5432",
+    numeroRegistroProfissional: "CRP-67890",
+    desordem: "depressão"
+  },
+  {
+    nome: "Fernanda Oliveira",
+    dataNascimento: "1982-11-30",
+    email: "fernanda.oliveira@example.com",
+    telefone: "(31) 91234-5678",
+    numeroRegistroProfissional: "CRP-11223",
+    desordem: "bipolaridade"
+  },
+  {
+    nome: "João Pereira",
+    dataNascimento: "1978-02-10",
+    email: "joao.pereira@example.com",
+    telefone: "(41) 93456-7890",
+    numeroRegistroProfissional: "CRP-33445",
+    desordem: "autismo"
+  },
+  {
+    nome: "Maria Santos",
+    dataNascimento: "1993-07-05",
+    email: "maria.santos@example.com",
+    telefone: "(51) 92345-6789",
+    numeroRegistroProfissional: "CRP-55667",
+    desordem: "depressão"
+  },
+  {
+    nome: "Pedro Almeida",
+    dataNascimento: "1988-01-17",
+    email: "pedro.almeida@example.com",
+    telefone: "(61) 99887-6655",
+    numeroRegistroProfissional: "CRP-77889",
+    desordem: "bipolaridade"
+  },
+  {
+    nome: "Clara Lima",
+    dataNascimento: "1980-09-29",
+    email: "clara.lima@example.com",
+    telefone: "(71) 91122-3344",
+    numeroRegistroProfissional: "CRP-99000",
+    desordem: "autismo"
+  },
+  {
+    nome: "Ricardo Costa",
+    dataNascimento: "1986-12-12",
+    email: "ricardo.costa@example.com",
+    telefone: "(81) 91234-5678",
+    numeroRegistroProfissional: "CRP-22334",
+    desordem: "depressão"
+  },
+  {
+    nome: "Juliana Martins",
+    dataNascimento: "1991-03-08",
+    email: "juliana.martins@example.com",
+    telefone: "(91) 93456-7890",
+    numeroRegistroProfissional: "CRP-44556",
+    desordem: "bipolaridade"
+  },
+  {
+    nome: "Roberto Ferreira",
+    dataNascimento: "1987-08-25",
+    email: "roberto.ferreira@example.com",
+    telefone: "(11) 97654-3210",
+    numeroRegistroProfissional: "CRP-66778",
+    desordem: "autismo"
+  }
+])
+
+
 
 </Script>
 
@@ -44,7 +128,7 @@ import '~/assets/css/index.css'
     <!--<section class="bg">-->
 
     
-<NuxtPage/>
+<NuxtPage v-bind:medicos="medicos"/>
 
 
 </template>

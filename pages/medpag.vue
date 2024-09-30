@@ -18,13 +18,8 @@ const params = defineProps(["medicos"]);
 <div class="flex_container">
 
     
-    <Medicos v-bind:medicos="medicos[0]"/>
-    <Medicos v-bind:medicos="medicos[1]"/>
-    <Medicos v-bind:medicos="medicos[2]"/>
-    <Medicos v-bind:medicos="medicos[3]"/>
-    <Medicos v-bind:medicos="medicos[4]"/>
-    <Medicos v-bind:medicos="medicos[5]"/>
-
+    <Medicos  v-bind:medicos="medicos"/>
+    
     
     
    </div>

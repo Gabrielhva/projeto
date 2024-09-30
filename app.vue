@@ -9,7 +9,7 @@ const medicos = reactive ([
     email: "ana.silva@example.com",
     telefone: "(11) 98765-4321",
     numeroRegistroProfissional: "CRP-12345",
-    desordem: "autismo"
+    disorder: "autismo"
   },
   {
     nome: "Carlos Souza",
@@ -17,7 +17,7 @@ const medicos = reactive ([
     email: "carlos.souza@example.com",
     telefone: "(21) 99876-5432",
     numeroRegistroProfissional: "CRP-67890",
-    desordem: "depressão"
+    disorder: "depressao"
   },
   {
     nome: "Fernanda Oliveira",
@@ -25,7 +25,7 @@ const medicos = reactive ([
     email: "fernanda.oliveira@example.com",
     telefone: "(31) 91234-5678",
     numeroRegistroProfissional: "CRP-11223",
-    desordem: "bipolaridade"
+    disorder: "bipolaridade"
   },
   {
     nome: "João Pereira",
@@ -33,7 +33,7 @@ const medicos = reactive ([
     email: "joao.pereira@example.com",
     telefone: "(41) 93456-7890",
     numeroRegistroProfissional: "CRP-33445",
-    desordem: "autismo"
+    disorder: "autismo"
   },
   {
     nome: "Maria Santos",
@@ -41,7 +41,7 @@ const medicos = reactive ([
     email: "maria.santos@example.com",
     telefone: "(51) 92345-6789",
     numeroRegistroProfissional: "CRP-55667",
-    desordem: "depressão"
+    disorder: "depressao"
   },
   {
     nome: "Pedro Almeida",
@@ -49,7 +49,7 @@ const medicos = reactive ([
     email: "pedro.almeida@example.com",
     telefone: "(61) 99887-6655",
     numeroRegistroProfissional: "CRP-77889",
-    desordem: "bipolaridade"
+    disorder: "bipolaridade"
   },
   {
     nome: "Clara Lima",
@@ -57,7 +57,7 @@ const medicos = reactive ([
     email: "clara.lima@example.com",
     telefone: "(71) 91122-3344",
     numeroRegistroProfissional: "CRP-99000",
-    desordem: "autismo"
+    disorder: "autismo"
   },
   {
     nome: "Ricardo Costa",
@@ -65,7 +65,7 @@ const medicos = reactive ([
     email: "ricardo.costa@example.com",
     telefone: "(81) 91234-5678",
     numeroRegistroProfissional: "CRP-22334",
-    desordem: "depressão"
+    disorder: "depressao"
   },
   {
     nome: "Juliana Martins",
@@ -73,7 +73,7 @@ const medicos = reactive ([
     email: "juliana.martins@example.com",
     telefone: "(91) 93456-7890",
     numeroRegistroProfissional: "CRP-44556",
-    desordem: "bipolaridade"
+    disorder: "bipolaridade"
   },
   {
     nome: "Roberto Ferreira",
@@ -81,7 +81,7 @@ const medicos = reactive ([
     email: "roberto.ferreira@example.com",
     telefone: "(11) 97654-3210",
     numeroRegistroProfissional: "CRP-66778",
-    desordem: "autismo"
+    disorder: "autismo"
   }
 ])
 

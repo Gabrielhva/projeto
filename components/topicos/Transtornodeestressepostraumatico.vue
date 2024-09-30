@@ -65,18 +65,12 @@ controlada é um mecanismo para enfrentar e superar o trauma
 </br></br>
 
 <strong>Psicoterapia</strong> Medicação - antidepressivos, ansiolíticos e outros tipos de medicamentos são comumente usados para aliviar os sintomas do TSPT. Podem ser usados sozinhos ou
-junto com psicoterapia ou outros tratamentos.
-
-
-
-
-
-
-
-
-
-
-
-
+junto com psicoterapia ou outros tratamentos
 </p>
+
+
+<hr> <br>
+          <footer> 
+             © 2024 Portal saúde+ - Todos os direitos Reservados
+          </footer>
 </template>

@@ -117,4 +117,9 @@ A família pode precisar também de acompanhamento psicoterápico, por duas dife
 segunda, porque precisa ser orientada sobre como lidar no dia a dia com os portadores do transtorno. 
 
 </p>
+
+<hr> <br>
+          <footer> 
+             © 2024 Portal saúde+ - Todos os direitos Reservados 
+          </footer>
 </template>

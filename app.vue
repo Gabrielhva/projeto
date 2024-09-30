@@ -85,6 +85,8 @@ const medicos = reactive ([
   }
 ])
 
+
+
 </script>
 
 
@@ -100,17 +102,17 @@ const medicos = reactive ([
 <div class="container">
     
     <img src="./public/logo.png" alt="logo" class="logo"/>
-
+    
     <NuxtLink to="/"> <button class="botao ajuste">Inicio</button></NuxtLink> 
     <NuxtLink to="/recursos"><button class="botao">Recursos</button></NuxtLink>  
     <NuxtLink to="/quemsomos"> <button class="botao">Quem Somos</button></NuxtLink>
     <NuxtLink to="/topicos"> <button class="botao">Tópicos</button></NuxtLink>
     <NuxtLink to="/login"><button class="botao">Entrar</button></NuxtLink>
-    
+  
 
     <div class="search-box ajustebusca">
-    <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
-    <input type="text" class="input-search" placeholder="Buscar...">
+      <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <input type="text" class="input-search" placeholder="Buscar..."/>
     </div>
 
     

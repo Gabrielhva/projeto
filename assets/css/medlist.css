@@ -1,0 +1,89 @@
+:root {
+  --gradient: linear-gradient(to left top, #19e6b9 10%, #1ec2d8 90%) !important;
+}
+
+.img_perfil_med{
+
+  width: 250px;
+  
+  margin-left: 17px;
+}
+
+.card {
+  margin-top: 10px;
+  background: #222;
+  border: 1px solid #19e6b9;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+  padding-bottom: 10px;
+}
+
+
+.btn {
+  display: flex;
+  border: 4px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .7s ease;
+ margin-left: 75px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 130px;
+  
+}
+
+.btn:hover, .btn:focus {
+      background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  
+  box-shadow: #222222 1px 0 10px;
+  text-decoration: underline;
+  
+}
+
+.tipomed{
+
+  color: #bdbcbc;
+}
+
+h5{
+  font-size: 25px;
+  margin: 5px;
+  text-align: center;
+}
+
+h6{
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.ajuste{
+  display: flex;
+  gap: 20px;
+  margin-left: 200px;
+}
+
+.bg {
+  width: 100%;
+  height: 155vh;
+ 
+  align-items:center;
+  justify-content:center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, rgb(0, 252, 126) 0%, rgb(0, 255, 170) 25%, rgb(0, 255, 106) 51%, #35aeff 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 20s ease infinite;
+  position: absolute;
+  z-index: -1;
+  
+}

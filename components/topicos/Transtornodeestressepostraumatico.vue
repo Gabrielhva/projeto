@@ -78,9 +78,5 @@ junto com psicoterapia ou outros tratamentos.
 
 
 
-
-
-
-
 </p>
 </template>

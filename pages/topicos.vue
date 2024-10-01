@@ -4,7 +4,14 @@
 
 let categoria = ref("depressao")
 
+const params = defineProps(["medicos"])
+
+
 function alteraTopicos(valor){
+  categoria.value = valor
+}
+
+function alteraMedico(valor){
   categoria.value = valor
 }
 
@@ -31,10 +38,36 @@ function alteraTopicos(valor){
       <li v-on:click="alteraTopicos('depedencia de medicamentos')">Depedencia de Medicamentos</li>
     </ul>
 
+    <div v-if="categoria=='autismo'">
+      <Medicos  v-bind:medicos="medicos[0]" />
+      <Medicos  v-bind:medicos="medicos[1]" />
+      <Medicos  v-bind:medicos="medicos[3]" />
+
+    </div>
+
+    <div v-if="categoria=='depressao'">
+      <Medicos  v-bind:medicos="medicos[2]" />
+      <Medicos  v-bind:medicos="medicos[5]" />
+      <Medicos  v-bind:medicos="medicos[6]" />
+      
+    </div>
+
+
+    <div v-if="categoria=='bipolaridade'">
+      <Medicos  v-bind:medicos="medicos[0]" />
+      <Medicos  v-bind:medicos="medicos[1]" />
+      <Medicos  v-bind:medicos="medicos[3]" />
+      
+    </div>
+
+
+
   </div>
 
 
   <div class="conteudo">
+
+
 
     <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
     <div v-if="categoria=='depressao'"><TopicosDepressao/></div>

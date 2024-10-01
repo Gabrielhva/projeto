@@ -7,7 +7,7 @@
 
 .aumento_botao_posicao {
     margin-top: 500px;
-    margin-left: 2000px;
+    margin-left: 1000px;
     background: transparent;
 
 }
@@ -76,6 +76,7 @@ a{
     display: flex;
     align-items: center;
     gap: 1px;
+    
 }
  
 .perfil{
@@ -117,7 +118,7 @@ a{
 }
 .distperfil{
    
-    margin-left: 0px;
+    margin-left: 190px;
     margin-right: 10px;
     font-family: monospace;
     font-size: 20px;
@@ -192,7 +193,7 @@ a{
 
 .ajuste{
 
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .bg {
@@ -271,15 +272,17 @@ a{
   background-color: #08c797;
   padding-right: 40px;
   color:#000000;
+  
 }
 .input-search::placeholder{
   color:rgba(0, 0, 0, 0.5);
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
+  padding-left: 50px;
 }
 .btn-search{
-  width: 50px;
+  width: 550px;
   height: 50px;
   border-style: none;
   font-size: 20px;
@@ -291,7 +294,7 @@ a{
   right: 0px;
   color:#000000 ;
   background-color:transparent;
-  pointer-events: painted;  
+  pointer-events:none;  
 }
 .btn-search:focus ~ .input-search{
   width: 300px;
@@ -311,6 +314,7 @@ a{
 .ajustebusca{
 
   margin-left: 100px;
+  width: 300px;
   
 }
 

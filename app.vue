@@ -6,7 +6,7 @@ import '~/assets/css/index.css'
 const medicos = reactive ([
   {
     nome: "Ana Silva",
-    dataNascimento: "1985-06-15",
+    nascimento: "1985-06-15",
     email: "ana.silva@example.com",
     telefone: "(11) 98765-4321",
     crp: "CRP-12345",
@@ -211,19 +211,7 @@ const clinicas = reactive([
   
 <Head>
 
-<Script src="https://kit.fontawesome.com/e9b73e9254.js">
-
-
-
-
-</script>
-
-
-<template>
-  
-<Head>
-
-<Script src="https://kit.fontawesome.com/e9b73e9254.js"></Script>
+<Script src="https://kit.fontawesome.com/e9b73e9254.js"></script>
 
 </Head>
  

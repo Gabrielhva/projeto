@@ -1,54 +1,39 @@
-<script>
+<script setup>
+
+const params= defineProps(["usuarios"])
+
+let email = ref("")
+let senha = ref("")
 
 
-
-         function enviaFormulario(e){
-
-            e.preventDefault();  
-             
-            const usuario = {
-
-                nome:"",
-                senha:""
-
-
-            };
-
-            usuario.nome = e.target.nome.value;
-            usuario.senha = e.target.senha.value;
-
-            console.log("nome:",usuario.nome);
-            console.log("senha:",usuario.senha);
-
-        if (usuario.nome == "admin"){
-
-            console.log("Usuário correto");
-        }
-
-            else {
-
-
-            console.log("Usuário incorreto!");
-
-
-        }
-
-        if (usuario.senha == "senha"){
-
-            console.log("Senha correta");
+    function enviaFormulario(){
             
+        let usuario = {
+            nome: "",
+            senha: "",
+            nascimento: "",
+            email: ""
+        };
+
+        params.usuarios.map(u=>{
+            if(u.email==email.value && u.senha==senha.value){
+                usuario = u
+            }
+        })
+
+        if(usuario.nome=="" || usuario.nome== null){
+            alert("usuario não encontrado")
+            return
         }
 
-            else {
+        alert("usuario logado com sucesso")
 
-                console.log("Senha incorreta!");
+        localStorage.setItem("usuario", JSON.stringify(usuario))
+    
+    }
 
-            }
+      
 
-
-
-        
-            }
 </script>
 
 <template>
@@ -61,18 +46,18 @@
         <p> Use sua conta para acessar seu painel de usuário </p>
         <br/>
 
-        <p> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastrar"> clicando aqui </NuxtLink></p> 
+        <p> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro"> clicando aqui </NuxtLink></p> 
          <!-- depois validar -->
          <br/>
 
-         <form action="/index">
+         <form v-on:submit.prevent="enviaFormulario()">
             <p> E-mail: </p>
-           <input/>
+           <input v-model="email"/>
 
             <br/>
 
             <p> Senha: </p>
-            <input/>
+            <input v-model="senha"/>
             <br/>
             <br/>
 

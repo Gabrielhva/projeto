@@ -77,7 +77,7 @@ const medicos = reactive ([
     desordem: "bipolaridade"
   },
   {
-    nome: "Roberto Ferreira",
+    nome: "Noberto Ferreira",
     nascimento: "1987-08-25",
     email: "roberto.ferreira@example.com",
     telefone: "(11) 97654-3210",

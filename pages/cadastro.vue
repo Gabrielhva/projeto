@@ -1,6 +1,6 @@
 <script setup> 
 
-//import '~/assets/css/cadastro.css'
+import '~/assets/css/cadastro.css'
 
 const params = defineProps(["usuarios", "medicos","clinicas"])
 
@@ -86,11 +86,11 @@ desordem:"",
 
    <div>
 
-    <button v-on:click="alteraFormulario('usuario')">Usuario Convencional</button>
+    <button class="botao1" v-on:click="alteraFormulario('usuario')">Usuario Convencional</button>
 
-    <button v-on:click="alteraFormulario('profissional')">Suporte Profisional</button>
+    <button class="botao1" v-on:click="alteraFormulario('profissional')">Suporte Profisional</button>
     
-    <button v-on:click="alteraFormulario('clinica')">Clinicas Especializadas</button>
+    <button class="botao1" v-on:click="alteraFormulario('clinica')">Clinicas Especializadas</button>
 
     
 

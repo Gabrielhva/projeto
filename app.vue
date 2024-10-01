@@ -6,7 +6,7 @@ import '~/assets/css/index.css'
 const medicos = reactive ([
   {
     nome: "Ana Silva",
-    dataNascimento: "1985-06-15",
+    nascimento: "1985-06-15",
     email: "ana.silva@example.com",
     telefone: "(11) 98765-4321",
     numeroRegistroProfissional: "CRP-12345",

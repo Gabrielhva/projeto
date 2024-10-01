@@ -11,9 +11,30 @@
 }
 
 
-.btnUsuario{
+.botao1{
+    border: solid 1px rgb(167, 204, 195);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(135, 236, 211);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family:monospace ;
+    font-size: 20px;
+    white-space: nowrap;
+    cursor:pointer;
     
+    margin-right: 10px;
 }
+
+.conteudo{
+color: rgb(75, 99, 85);
+
+}
+
+
+.ajuste2{
+    margin-left: 20px;
+}
+
 
 
 

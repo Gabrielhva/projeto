@@ -1,5 +1,7 @@
 <script setup>
 
+import '~/assets/css/login.css'
+
 const params= defineProps(["usuarios"])
 
 let email = ref("")
@@ -40,28 +42,28 @@ let senha = ref("")
 
 <hr/>
 
-        <h2> Entrar </h2>
+        <h2 class="conteudo1">Entrar com seu perfil</h2>
         <br/><br/>
 
-        <p> Use sua conta para acessar seu painel de usuário </p>
+        <p class="informacoespag"> Use sua conta para acessar seu painel de usuário </p>
         <br/>
 
-        <p> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro"> clicando aqui </NuxtLink></p> 
+        <p class="informacoespag"> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro"> clicando aqui </NuxtLink></p> 
          <!-- depois validar -->
          <br/>
 
          <form v-on:submit.prevent="enviaFormulario()">
-            <p> E-mail: </p>
+            <p class="informacoespag"> E-mail: </p>
            <input v-model="email"/>
 
             <br/>
 
-            <p> Senha: </p>
+            <p class="informacoespag"> Senha: </p>
             <input v-model="senha"/>
             <br/>
             <br/>
 
-            <button> Entrar </button>
+            <button class="botao1"> Entrar </button>
          
             <!-- dois validar button -->
 

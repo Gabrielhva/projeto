@@ -9,8 +9,6 @@ const medicos = reactive ([
     nascimento: "1985-06-15",
     email: "ana.silva@example.com",
     telefone: "(11) 98765-4321",
-    numeroRegistroProfissional: "CRP-12345",
-    disorder: "autismo"
     crp: "CRP-12345",
     desordem: "autismo"
   },
@@ -19,72 +17,72 @@ const medicos = reactive ([
     nascimento: "1990-04-22",
     email: "carlos.souza@example.com",
     telefone: "(21) 99876-5432",
-    numeroRegistroProfissional: "CRP-67890",
-    disorder: "depressao"
+    crp: "CRP-67890",
+    desordem: "depressão"
   },
   {
     nome: "Fernanda Oliveira",
     nascimento: "1982-11-30",
     email: "fernanda.oliveira@example.com",
     telefone: "(31) 91234-5678",
-    numeroRegistroProfissional: "CRP-11223",
-    disorder: "bipolaridade"
+    crp: "CRP-11223",
+    desordem: "bipolaridade"
   },
   {
     nome: "João Pereira",
     nascimento: "1978-02-10",
     email: "joao.pereira@example.com",
     telefone: "(41) 93456-7890",
-    numeroRegistroProfissional: "CRP-33445",
-    disorder: "autismo"
+    crp: "CRP-33445",
+    desordem: "autismo"
   },
   {
     nome: "Maria Santos",
     nascimento: "1993-07-05",
     email: "maria.santos@example.com",
     telefone: "(51) 92345-6789",
-    numeroRegistroProfissional: "CRP-55667",
-    disorder: "depressao"
+    crp: "CRP-55667",
+    desordem: "depressão"
   },
   {
     nome: "Pedro Almeida",
     nascimento: "1988-01-17",
     email: "pedro.almeida@example.com",
     telefone: "(61) 99887-6655",
-    numeroRegistroProfissional: "CRP-77889",
-    disorder: "bipolaridade"
+    crp: "CRP-77889",
+    desordem: "bipolaridade"
   },
   {
     nome: "Clara Lima",
     nascimento: "1980-09-29",
     email: "clara.lima@example.com",
     telefone: "(71) 91122-3344",
-    numeroRegistroProfissional: "CRP-99000",
-    disorder: "autismo"
+    crp: "CRP-99000",
+    desordem: "autismo"
   },
   {
     nome: "Ricardo Costa",
     nascimento: "1986-12-12",
     email: "ricardo.costa@example.com",
     telefone: "(81) 91234-5678",
-    numeroRegistroProfissional: "CRP-22334",
-    disorder: "depressao"
+    crp: "CRP-22334",
+    desordem: "depressão"
   },
   {
     nome: "Juliana Martins",
     nascimento: "1991-03-08",
     email: "juliana.martins@example.com",
     telefone: "(91) 93456-7890",
-    numeroRegistroProfissional: "CRP-44556",
-    disorder: "bipolaridade"
+    crp: "CRP-44556",
+    desordem: "bipolaridade"
   },
   {
-    nome: "Noberto Ferreira",
+    nome: "Roberto Ferreira",
     nascimento: "1987-08-25",
     email: "roberto.ferreira@example.com",
     telefone: "(11) 97654-3210",
-    numeroRegistroProfissional: "CRP-66778",
-    disorder: "autismo"
+    crp: "CRP-66778",
+    desordem: "autismo"
   }
 ])
 
@@ -216,6 +214,7 @@ const clinicas = reactive([
 <Script src="https://kit.fontawesome.com/e9b73e9254.js"></script>
 
 </Head>
+ 
 
 <div class="container">
     

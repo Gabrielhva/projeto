@@ -77,10 +77,10 @@ desordem:"",
 <template>
 
 
-<h2>Cadastre-se</h2>
+<h2 class="conteudo" >Cadastre-se</h2>
 
 
-  <p>Escolha seu tipo de conta</p>
+  <p class="conteudo ajuste2">Escolha seu tipo de conta</p>
   
   
 
@@ -94,7 +94,7 @@ desordem:"",
 
     
 
-    </div>
+    </div >
 
    
 
@@ -158,16 +158,16 @@ desordem:"",
       
 
 
-        <p>
+        <p class="conteudo">
 
           <label>
-          Nome Completo:<input v-model="medicos.nome">
+          Nome Completo: <input v-model="medicos.nome">
           </label>
 
         </p>
        
        
-      <p>
+      <p class="conteudo">
 
         <label>
         Data Nascimento: <input v-model="medicos.dataNascimento">
@@ -176,16 +176,16 @@ desordem:"",
       </p>
 
 
-      <p>
+      <p class="conteudo">
 
       <label>
-      E-mail:<input v-model="medicos.email">
+      E-mail: <input v-model="medicos.email">
       </label>
 
       </p>
 
 
-      <p>
+      <p class="conteudo">
 
       <label>
       Telefone: <input v-model="medicos.telefone">
@@ -194,7 +194,7 @@ desordem:"",
      </p>
 
 
-     <p>
+     <p class="conteudo">
 
         <label>
         Número de Registro Profissional (CRP): <input v-model="medicos.crp">
@@ -202,10 +202,10 @@ desordem:"",
 
      </p>
 
-     <p>
+     <p class="conteudo">
 
     <label>
-    Especialização:<input v-model="medicos.desordem">
+    Especialização: <input v-model="medicos.desordem">
    </label>
 
 
@@ -216,12 +216,12 @@ desordem:"",
 
 
 
-    <label>
-    <input type="checkbox" required/> Li e aceito os termos de uso
+    <label class="conteudo" >
+    <input type="checkbox" required /> Li e aceito os termos de uso
     </label>
        
 
-    <button> Cadastrar </button> <button> Cancelar </button>
+    <button class="botao1"> Cadastrar </button> <button class="botao1"> Cancelar </button>
   
 
       

@@ -1,8 +1,14 @@
+<script setup>
+
+
+</script>
+
+
 <template>
     <h1>Depressão</h1>
 
 <hr/>
-
+    <h2>Que é o Depressão?</h2>
 
 <p>
 
@@ -79,6 +85,10 @@ não devem ser usados para tratar depressão em crianças e não são, também, 
 <li>Esteja atento aos pensamentos negativos persistentes e à autocrítica e tente substituí-los por pensamentos positivos. Parabenize-se por suas conquistas.</li>
 
 </ul>
+<hr> <br>
+          <footer> 
+             © 2024 Portal saúde+ - Todos os direitos Reservados
+          </footer>
 
 
 

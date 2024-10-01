@@ -29,34 +29,104 @@ function alteraMedico(valor){
       <li v-on:click="alteraTopicos('autismo')" >Autismo</li>
       <li v-on:click="alteraTopicos('depressao')">Depressão</li>
       <li v-on:click="alteraTopicos('bipolaridade')">Bipolaridade</li>
-      <li v-on:click="alteraTopicos('boderlaine')">Boderlaine</li>
+      <li v-on:click="alteraTopicos('borderline')">Borderline</li>
       <li v-on:click="alteraTopicos('esquizofrenia')">Esquizofrenia</li>
       <li v-on:click="alteraTopicos('Transtorno de estresse pos traumatico')">Transtorno de estresse pós-traumatico</li>
-      <li v-on:click="alteraTopicos('Transtorno obcessivo-compulsivo')">Transtorno Obcessivo-compulsivo</li>
-      <li v-on:click="alteraTopicos('depedencia alcolica')">Depedencia Alcoólica</li>
-      <li v-on:click="alteraTopicos('depedencia de drogas ilicitas')">Depedencia de Drogas Ilicitas</li>
-      <li v-on:click="alteraTopicos('depedencia de medicamentos')">Depedencia de Medicamentos</li>
+      <li v-on:click="alteraTopicos('Transtorno obsessivo-compulsivo')">Transtorno Obsessivo-compulsivo</li>
+      <li v-on:click="alteraTopicos('dependencia alcoolica')">Dependencia alcoolica</li>
+      <li v-on:click="alteraTopicos('dependenciadedrogasilicitas')">Dependencia de Drogas Ilicitas</li>
+      <li v-on:click="alteraTopicos('dependenciademedicamentos')">Dependencia de Medicamentos</li>
     </ul>
 
     <div v-if="categoria=='autismo'">
-      <Medicos  v-bind:medicos="medicos[0]" />
-      <Medicos  v-bind:medicos="medicos[1]" />
-      <Medicos  v-bind:medicos="medicos[3]" />
+
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='autismo'"  v-bind:medicos="medico" />
+      </div>
 
     </div>
 
+
     <div v-if="categoria=='depressao'">
-      <Medicos  v-bind:medicos="medicos[2]" />
-      <Medicos  v-bind:medicos="medicos[5]" />
-      <Medicos  v-bind:medicos="medicos[6]" />
-      
+
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='depressao'"  v-bind:medicos="medico" />
+      </div>  
+  
     </div>
 
 
     <div v-if="categoria=='bipolaridade'">
-      <Medicos  v-bind:medicos="medicos[0]" />
-      <Medicos  v-bind:medicos="medicos[1]" />
-      <Medicos  v-bind:medicos="medicos[3]" />
+
+<div v-for="medico in medicos" >
+    <Medicos v-if=" medico.disorder=='bipolaridade'"  v-bind:medicos="medico" />
+</div>  
+
+</div>
+
+    
+
+    
+    <div v-if="categoria=='borderline'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='borderline'"  v-bind:medicos="medico" />
+      </div>
+      
+      
+    </div>
+
+    <div v-if="categoria=='esquizofrenia'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='esquizofrenia'"  v-bind:medicos="medico" />
+      </div>
+      
+      
+    </div>
+
+    <div v-if="categoria=='Transtorno de estresse pos traumatico'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='Transtorno de estresse pos traumatico'"  v-bind:medicos="medico" />
+      </div>
+      
+      
+    </div>
+
+    <div v-if="categoria=='Transtorno obsessivo-compulsivo'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='Transtorno obsessivo-compulsivo'"  v-bind:medicos="medico" />
+      </div>
+      
+      
+    </div>
+
+    <div v-if="categoria=='dependencia alcoolica'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='dependencia alcoolica'"  v-bind:medicos="medico" />
+      </div>
+      
+      
+    </div>
+
+    <div v-if="categoria=='dependenciadedrogasilicitas'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='dependenciadedrogasilicitas'"  v-bind:medicos="medico" />
+      </div>
+      
+      
+    </div>
+
+    <div v-if="categoria=='dependenciademedicamentos'">
+      
+      <div v-for="medico in medicos" >
+          <Medicos v-if=" medico.disorder=='dependenciademedicamentos'"  v-bind:medicos="medico" />
+      </div>
+      
       
     </div>
 
@@ -72,13 +142,13 @@ function alteraMedico(valor){
     <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
     <div v-if="categoria=='depressao'"><TopicosDepressao/></div>
     <div v-if="categoria=='bipolaridade'"><TopicosBipolaridade/></div>
-    <div v-if="categoria=='boderlaine'"><TopicosBoderlaine/></div>
+    <div v-if="categoria=='borderline'"><TopicosBorderline/></div>
     <div v-if="categoria=='esquizofrenia'"><TopicosEsquizofrenia/></div>
     <div v-if="categoria=='Transtorno de estresse pos traumatico'"><TopicosTranstornodeestressepostraumatico/></div>
-    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
-    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
-    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
-    <div v-if="categoria=='autismo'"><TopicosAutismo/></div>
+    <div v-if="categoria=='Transtorno obsessivo-compulsivo'"><TopicosTranstornoobsessivo-compulsivo/></div>
+    <div v-if="categoria=='dependencia alcoolica'"><TopicosDepedenciaalcoolica/></div>
+    <div v-if="categoria=='dependenciadedrogasilicitas'"><TopicosDependenciadedrogasilicitas/></div>
+    <div v-if="categoria=='dependenciademedicamentos'"><TopicosDependenciademedicamentos/></div>
     
     
 
@@ -100,7 +170,7 @@ ul{
 
 li{
   margin-bottom: 20px;
-  background: green;
+  background: rgb(5, 179, 135);
   color: white;
   padding: 10px;
   text-align: center;

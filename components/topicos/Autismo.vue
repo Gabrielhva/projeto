@@ -1,8 +1,12 @@
+<script setup>
+
+
+</script>
+
 <template>
-    <h2>Que é o Autismo?</h2>
-
-
-
+    <h2>Autismo</h2>
+    <hr>
+     <h3>Que é o Autismo?</h3> 
 <p>
  O Autismo (Transtorno do Espectro Autista – TEA) é um problema no desenvolvimento neurológico 
  que prejudica a organização de pensamentos, sentimentos e emoções.
@@ -16,7 +20,7 @@
 
 <div class="container">
 
-<h3>Os sinais mais comuns do TEA são:</h3> <br/>
+<h4>Os sinais mais comuns do TEA são:</h4> <br/>
 <ul class="esquerda">
  <li>
      Apresentar atraso anormal na fala;
@@ -154,7 +158,7 @@
           
           <hr> <br>
           <footer> 
-             © 2024 Portal saúde+  Todos os direitos Reservados 
+             © 2024 Portal saúde+ - Todos os direitos Reservados
           </footer>
           
           <br>

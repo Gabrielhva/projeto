@@ -1,10 +1,14 @@
+<script setup>
+
+
+</script>
+
+
+
 <template>
     <h2>Bipolaridade</h2>
 
 <hr/>
-
-
-
 
 <p> 
 Transtorno afetivo bipolar é um distúrbio psiquiátrico complexo. Sua característica mais marcante é a alternância, às vezes súbita, de episódios de depressão
@@ -117,4 +121,9 @@ A família pode precisar também de acompanhamento psicoterápico, por duas dife
 segunda, porque precisa ser orientada sobre como lidar no dia a dia com os portadores do transtorno. 
 
 </p>
+
+<hr> <br>
+          <footer> 
+             © 2024 Portal saúde+ - Todos os direitos Reservados 
+          </footer>
 </template>

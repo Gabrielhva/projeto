@@ -1,3 +1,9 @@
+<script setup>
+
+
+</script>
+
+
 <template>
     <h1>Transtorno obsessivo-compulsivo</h1>
     <p>O transtorno obsessivo-compulsivo é caracterizado por obsessões,

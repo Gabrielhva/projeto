@@ -1,3 +1,9 @@
+<script setup>
+
+
+</script>
+
+
 <template>
     <h1>Depressão</h1>
 

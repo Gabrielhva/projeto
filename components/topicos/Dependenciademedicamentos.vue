@@ -1,3 +1,9 @@
+<script setup>
+
+
+</script>
+
+
 <template>
     <h1>Depedência de Medicamentos</h1>
     <hr/>

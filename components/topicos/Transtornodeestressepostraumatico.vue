@@ -1,3 +1,10 @@
+<script setup>
+
+
+</script>
+
+
+
 <template>
     <h2>Transtorno de estresse pós-traumatico</h2>
 

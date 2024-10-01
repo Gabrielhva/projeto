@@ -1,3 +1,9 @@
+
+<script setup>
+
+
+</script>
+
 <template>
     <h1> Dependencia Alcoólica</h1>
     <hr>

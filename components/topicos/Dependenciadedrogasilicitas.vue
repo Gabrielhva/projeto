@@ -1,3 +1,10 @@
+<script setup>
+
+
+</script>
+
+
+
 <template>
     <h1>Dependencia de  Drogas Ilicitas</h1>
     <hr/>

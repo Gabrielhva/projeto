@@ -1,3 +1,8 @@
+<script setup>
+
+
+</script>
+
 <template>
     <h2>Autismo</h2>
     <hr>

@@ -1,5 +1,7 @@
 <script setup>
 
+import '~/assets/css/contesuahistoria.css'
+
 
 
 </script>
@@ -7,20 +9,22 @@
 <template>
 
 
-<h2> Conte sua Historia </h2>
+<h2 class="titulohistoria"> Conte sua Historia </h2>
     <br/><br/>
 
-    <p>
+    <p class="conteudohistoria">
     Compartilhar suas experiências pode criar um senso de conexão com outras pessoas que estão passando por desafios semelhantes.
     Isso pode ajudar os outros a sentir que não estão sozinhos e a encontrar conforto e apoio em histórias semelhantes 
    </p>
    <br/>
 
-   <p> Preencha os campos abaixo e nos conte sua historia. </p>
+   <p class="conteudohistoria"> Preencha os campos abaixo e nos conte sua historia:</p>
 
    <br/>
 
     <form > 
+
+        <div class="campohistoria"> 
         <label>
             Nome Completo:
             <br/>
@@ -49,7 +53,9 @@
 
             <br/><br/>
 
-            <button> Enviar </button>  <button> Cancelar </button>
+         </div>
+
+            <button class="botaohistoria"> Enviar </button>  <button class="botaohistoria"> Cancelar </button>
 </form>
 
 

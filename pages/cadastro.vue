@@ -4,7 +4,7 @@ import '~/assets/css/cadastro.css'
 
 const params = defineProps(["usuarios", "medicos","clinicas"])
 
-let categoria = ref("profissional")
+let categoria = ref("usuario")
 
 
 
@@ -208,6 +208,14 @@ desordem:"",
     Especialização: <input v-model="medicos.desordem">
    </label>
 
+   <p class="conteudo">
+
+   <label>
+    Foto: 
+   </label>
+
+  </p>
+
 
     </p>
 
@@ -237,7 +245,7 @@ desordem:"",
 <form v-if="categoria =='clinica'"id="clinicasEspecializadas"  v-on:submit.prevent="criarClinica()">
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Nome da clinica:<input  v-model="clinicas.nomeClinica">
@@ -246,7 +254,7 @@ Nome da clinica:<input  v-model="clinicas.nomeClinica">
 </p>
 
  
-<p>
+<p class="conteudo">
 
   <label>
 CNPJ: <input v-model="clinicas.cnpj">
@@ -257,7 +265,7 @@ CNPJ: <input v-model="clinicas.cnpj">
 
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Endereço :<input v-model="clinicas.endereco">
@@ -268,7 +276,7 @@ Endereço :<input v-model="clinicas.endereco">
 
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Estado <input v-model="clinicas.estado">
@@ -278,7 +286,7 @@ Estado <input v-model="clinicas.estado">
 </p>
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Cidade: <input v-model="clinicas.cidade">
@@ -288,7 +296,7 @@ Cidade: <input v-model="clinicas.cidade">
 </p>
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Cep: <input v-model="clinicas.cep">
@@ -297,7 +305,7 @@ Cep: <input v-model="clinicas.cep">
 </p>
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Nome do usuario: <input v-model="clinicas.nomeUsuario">
@@ -308,7 +316,7 @@ Nome do usuario: <input v-model="clinicas.nomeUsuario">
 </p>
 
 
-<p>
+<p class="conteudo">
 
   <label>
 Senha: <input v-model="clinicas.senha">
@@ -326,7 +334,7 @@ Senha: <input v-model="clinicas.senha">
 </label>
        
 
-<button> Cadastrar </button> <button> Cancelar </button>
+<button class="botao1"> Cadastrar </button> <button class="botao1"> Cancelar </button>
 
 
       

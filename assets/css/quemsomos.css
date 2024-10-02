@@ -22,14 +22,15 @@
 
 .ajuste3{
     color: rgb(75, 99, 85);
-    text-align: center;
+    text-align:justify
     
 }
 
-.lista{
+.clickaquiquemsomos{
 
-   
-
+    color: rgb(111, 233, 202);
+    text-align: center;
+    margin-top: 30;
+    font-size: 18px;
 
 }
-

@@ -1,0 +1,52 @@
+.titulohistoria{
+
+    color: rgb(75, 99, 85);
+    text-align: center;
+
+}
+
+.conteudohistoria{
+
+    color: rgb(75, 99, 85);
+    margin-left: 8px;
+    margin-bottom: 3px;
+
+}
+
+.conteudohistoria2{
+
+    color: rgb(75, 99, 85);
+    margin-left: 8px;
+    margin-top: 30px;
+
+}
+
+
+
+.campohistoria{
+
+    margin-left: 8px;
+    color: rgb(75, 99, 85);
+    border-radius: 80px;
+}
+
+.botaohistoria{
+
+    border: solid 1px rgb(167, 204, 195);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(135, 236, 211);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family:monospace ;
+    font-size: 20px;
+    white-space: nowrap;
+    cursor:pointer;
+    
+margin-top: 20px;
+margin-left: 9px;
+
+
+ }
+
+
+

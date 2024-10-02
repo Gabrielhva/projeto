@@ -1,6 +1,6 @@
 <script setup>
 
-import '~/assets/css/depressao.css'
+// import '~/assets/css/depressao.css'
 </script>
 
 
@@ -8,14 +8,16 @@ import '~/assets/css/depressao.css'
 
 <div class="esquerda">
     <div>
-        <h2>
+        <center><h2>
         Depressão
-    </h2>
+    </h2></center>
     </div>
     
     <hr>
     <div>
-        <h3>Que é Depressão ?</h3> 
+        <center>
+            <h3>Que é Depressão ?</h3>
+        </center> 
     </div>
   
 

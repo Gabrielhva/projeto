@@ -52,6 +52,14 @@ li:hover{
 
 .conteudo{
   width: 100%;
+  text-align: justify;
+    font-size: 18px;
+    color: rgb(75,99,85);
+}
+
+ h2{
+  text-align: center !important;
+  background: red;
 }
 
 </style>

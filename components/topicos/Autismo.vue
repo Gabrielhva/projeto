@@ -1,6 +1,6 @@
 
 <script setup>
-import '~/assets/css/autismo.css'
+// import '~/assets/css/autismo.css'
 </script>
 
 <template>

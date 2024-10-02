@@ -1,31 +1,21 @@
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    border-top: 1px solid red;}
+    }
    
 div {
     text-align: center;
+    color: rgb(75,99,85);
  }
  
-.img {
-            text-align: center;}
-
-.container{
-    display:flex;
-}
-           
-
-
 .body{
     font-family:'Times New Roman', Times, serif;
 
 }
 
 .esquerda{
-    text-align: left;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(75,99,85);
+    
 }
-
-
-         

@@ -1,13 +1,27 @@
+
 <script setup>
-
-
+import '~/assets/css/autismo.css'
 </script>
 
 <template>
+
     <h2>Autismo</h2>
     <hr>
+    
      <h3>Que é o Autismo?</h3> 
-<p>
+
+     <div>
+      
+
+
+     </div>
+
+     
+ <h4>Os sinais mais comuns do TEA são:</h4> <br/>
+
+<div class="esquerda">
+
+   <p>
  O Autismo (Transtorno do Espectro Autista – TEA) é um problema no desenvolvimento neurológico 
  que prejudica a organização de pensamentos, sentimentos e emoções.
  Tem como características a dificuldade de comunicação por falta de domínio da
@@ -16,12 +30,7 @@
  Os sinais de alerta surgem nos primeiros meses de vida, mas a confirmação do 
  diagnóstico costuma ocorrer aos dois ou três anos de idade. </p> 
 
- 
-
-<div class="container">
-
-<h4>Os sinais mais comuns do TEA são:</h4> <br/>
-<ul class="esquerda">
+<ul >
  <li>
      Apresentar atraso anormal na fala;
  </li>
@@ -62,16 +71,15 @@
 
 </ul>
 
-<img width="200" src="./imagens/AUTISTA.jpg"/><br/>
-</div>
+
 
         
         
 
          <br/>
-         <p> De acordo com a forma como aparece, o TEA pode ser classificado em três tipos:</p>
+         <p> <strong>De acordo com a forma como aparece, o TEA pode ser classificado em três tipos:</strong></p>
 
-         <ul class="esquerda" >
+         <ul  >
           <li> 
              Autismo clássico: Grau de comprometimento pode variar de muito. De maneira geral, os indivíduos são voltados para si mesmos, não estabelecem contato visual 
              com as pessoas nem com o ambiente; conseguem falar, mas não usam a fala como ferramenta de comunicação.
@@ -106,6 +114,7 @@
               No entanto, saber o que ocorre com o cérebro dessas
               pessoas ainda é um mistério para a ciência.
           </p>
+
           <div>
              <strong>Tratamento:</strong>
           </div>
@@ -119,9 +128,12 @@
              comunicar socialmente e de ter maior estabilidade emocional.
           </p>
           <p>
-             Recomendações para lidar com o autismo:
+            <div>
+               Recomendações para lidar com o autismo:
+            </div>
+             
           </p>
-          <ul class="esquerda">
+          <ul >
              <li>
                 Ter em casa uma pessoa com formas graves de autismo pode representar um fator de desequilíbrio para toda a família. 
                 Por isso, todos os envolvidos precisam
@@ -155,6 +167,8 @@
              Compreender o autismo e ter informação verdadeira sobre ele, nos ajuda a garantir mais veracidade para o que está sendo dito e quebrar fake news sobre o tema. Além disso, permite aampliação da
              representatividade e que cada vez mais pessoas possam entender suas características e identificar possíveis sinais.
           </P>
+
+         </div>
           
           <hr> <br>
           <footer> 

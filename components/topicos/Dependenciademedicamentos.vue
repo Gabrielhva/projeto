@@ -5,8 +5,9 @@
 
 
 <template>
-    <h1>Depedência de Medicamentos</h1>
-    <hr/>
+    <h2>Depedencia de Medicamentos</h2>
+    <hr>
+     <h3>O Mal do Seculo !</h3> 
     <strong>Vício em medicamentos: entenda o mal do século</strong>
     <p> Tem sido cada vez mais comum encontrar jovens e adultos com doenças
         relacionadas à saúde mental. Levantamento de setembro de 2019 feito 

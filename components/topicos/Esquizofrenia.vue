@@ -1,12 +1,12 @@
-<script setup>
 
+<script setup>
 
 </script>
 
-
 <template>
-    <h1>Esquizofrenia</h1>
+    <h2>Esquizofrenia</h2>
     <hr>
+     <h3>Que é o Esquizofrenia?</h3> 
 
     
 

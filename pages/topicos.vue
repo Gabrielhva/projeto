@@ -62,6 +62,23 @@ li:hover{
   background: red;
 }
 
+.esquerda{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(75,99,85);
+}
+.body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+  text-align: center;
+  color: rgb(75,99,85);
+}
+h1{
+  text-align: center;
+}
+
 </style>
 
 <template>

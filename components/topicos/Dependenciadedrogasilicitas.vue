@@ -6,9 +6,9 @@
 
 
 <template>
-    <h1>Dependencia de  Drogas Ilicitas</h1>
-    <hr/>
-    <h2>O que é?</h2>
+    <h2>Dependencia de Drogas Ilicitas</h2>
+    <hr>
+     <h3>Como se Define?</h3> 
     <p>Define-se como uma dependência de um "tóxico" ou droga que provoca adicionalmente perturbações psicológicas.<br/>
         As drogas não são todas iguais quanto à sua toxicidade: algumas são muito tóxicas, outras, como o álcool, podem ser ingeridas de forma controlada por muitas pessoas sem problemas de maior. Por outro lado, a heroína, ao contrário do álcool, é uma droga com menos efeitos tóxicos a longo prazo mas apresenta uma enorme capacidade de criar adição. Importa, por isso, distinguir a dependência causada por diferentes substâncias porque estas têm características diferentes e é possível utilizar algumas delas de forma não abusiva.<br/>
         O que atribui perigosidade real, assim como o que induz e mantém o seu consumo é um conjunto de fatores que interagem de forma dinâmica e estão relacionados com as propriedades farmacológicas da substância, as características psicológicas do consumidor e o ambiente social que o rodeia. Significa isto que pessoas diferentes integradas em meios diferentes apresentam um maior ou menor potencial de se tornarem dependentes da mesma substância.<br/>

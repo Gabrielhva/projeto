@@ -5,8 +5,9 @@
 </script>
 
 <template>
-    <h1> Dependencia Alcoólica</h1>
+    <h2>Dependencia alcoólica</h2>
     <hr>
+
     <p>O consumo de bebidas alcoólicas está presente em encontros com amigos, 
         festas e reuniões familiares, mas pode virar um problema quando a quantidade 
         de doses ingeridas e a frequência do uso saem do controle. A transição entre

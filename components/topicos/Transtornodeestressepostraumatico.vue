@@ -7,9 +7,8 @@
 
 <template>
     <h2>Transtorno de estresse pós-traumatico</h2>
-
-
 <hr/>
+    <h3> O que é o Tanstrono de Estrese Pós-traumático?</h3>
 
 <p>
 

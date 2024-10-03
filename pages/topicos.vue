@@ -5,6 +5,7 @@
 let categoria = ref("depressao")
 
 const params = defineProps(["medicos"])
+console.log(params.medicos)
 
 
 function alteraTopicos(valor){
@@ -16,8 +17,69 @@ function alteraMedico(valor){
 }
 
 
-
 </script>
+
+
+<style scoped>
+
+ul{
+  margin-right: 30px;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 20px;
+  background: rgb(135, 236, 211);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: solid;
+  border-radius: 50px;
+}
+li:hover{
+  background: darkgreen;
+  transition: 0.3s;
+}
+
+.divisao{
+  display: flex;
+}
+.topicos{
+  text-align: center;
+  width: 800px;
+}
+
+.conteudo{
+  width: 100%;
+  text-align: justify;
+    font-size: 18px;
+    color: rgb(75,99,85);
+}
+
+ h2{
+  text-align: center !important;
+  background: red;
+}
+
+.esquerda{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(75,99,85);
+}
+.body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+  text-align: center;
+  color: rgb(75,99,85);
+}
+h1{
+  text-align: center;
+}
+
+</style>
 
 <template>
 <div class="divisao">
@@ -40,8 +102,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='autismo'">
 
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='autismo'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='autismo'"  v-bind:medicos="medico" />
       </div>
 
     </div>
@@ -49,8 +111,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='depressao'">
 
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='depressao'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='depressão'"  v-bind:medicos="medico" />
       </div>  
   
     </div>
@@ -58,19 +120,19 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='bipolaridade'">
 
-<div v-for="medico in medicos" >
-    <Medicos v-if=" medico.disorder=='bipolaridade'"  v-bind:medicos="medico" />
+<div v-for="medico in params.medicos" >
+    <TopicosMedicos v-if=" medico.desordem=='bipolaridade'"  v-bind:medicos="medico" />
 </div>  
 
 </div>
 
-    
+  
 
     
     <div v-if="categoria=='borderline'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='borderline'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='borderline'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -78,8 +140,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='esquizofrenia'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='esquizofrenia'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='esquizofrenia'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -87,8 +149,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='Transtorno de estresse pos traumatico'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='Transtorno de estresse pos traumatico'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='Transtorno de estresse pos traumatico'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -96,8 +158,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='Transtorno obsessivo-compulsivo'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='Transtorno obsessivo-compulsivo'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='Transtorno obsessivo-compulsivo'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -105,8 +167,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='dependencia alcoolica'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='dependencia alcoolica'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='dependencia alcoolica'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -114,8 +176,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='dependenciadedrogasilicitas'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='dependenciadedrogasilicitas'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='dependenciadedrogasilicitas'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -123,8 +185,8 @@ function alteraMedico(valor){
 
     <div v-if="categoria=='dependenciademedicamentos'">
       
-      <div v-for="medico in medicos" >
-          <Medicos v-if=" medico.disorder=='dependenciademedicamentos'"  v-bind:medicos="medico" />
+      <div v-for="medico in params.medicos" >
+          <TopicosMedicos v-if=" medico.desordem=='dependenciademedicamentos'"  v-bind:medicos="medico" />
       </div>
       
       
@@ -160,37 +222,3 @@ function alteraMedico(valor){
   
     
 </template>
-
-<style scoped>
-
-ul{
-  margin-right: 30px;
-  padding: 0;
-}
-
-li{
-  margin-bottom: 20px;
-  background: rgb(5, 179, 135);
-  color: white;
-  padding: 10px;
-  text-align: center;
-  cursor: pointer;
-}
-li:hover{
-  background: darkgreen;
-  transition: 0.3s;
-}
-
-.divisao{
-  display: flex;
-}
-.topicos{
-  text-align: center;
-  width: 800px;
-}
-
-.conteudo{
-  width: 100%;
-}
-
-</style>

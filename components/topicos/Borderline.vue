@@ -1,13 +1,14 @@
 <script setup>
 
-
 </script>
 
 
 
 <template>
-    <h1>Borderline</h1>
+    <<h2>Borderline</h2>
     <hr>
+     <h3>Que é Borderline?</h3> 
+
     <p> <strong>Síndrome de borderline </strong>, ou transtorno de personalidade
          borderline, é caracterizada por mudanças rápidas de humor, medo de ser 
          abandonado pelos amigos ou parceiro, relacionamentos instáveis e 

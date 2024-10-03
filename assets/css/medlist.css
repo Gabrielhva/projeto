@@ -4,19 +4,14 @@
 
 .img_perfil_med{
 
-  width: 250px;
+  width: 190px;
   
-  margin-left: 17px;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-.card {
-  margin-top: 10px;
-  background: #222;
-  border: 1px solid #19e6b9;
-  color: rgba(250, 250, 250, 0.8);
-  margin-bottom: 2rem;
-  padding-bottom: 10px;
-}
+
 
 
 .btn {
@@ -29,10 +24,11 @@
   border-image-source:  var(--gradient) !important; 
   text-decoration: none;
   transition: all .7s ease;
- margin-left: 75px;
+  margin-left: 80px;
   font-size: 20px;
   margin-bottom: 10px;
   width: 130px;
+  margin-top: 20px;
   
 }
 
@@ -74,17 +70,5 @@ h6{
   margin-left: 200px;
 }
 
-.bg {
-  width: 100%;
-  height: 155vh;
- 
-  align-items:center;
-  justify-content:center;
-  background-size: 300% 300%;
-  background-image: linear-gradient(-45deg, rgb(0, 252, 126) 0%, rgb(0, 255, 170) 25%, rgb(0, 255, 106) 51%, #35aeff 100%);
-  -webkit-animation: AnimateBG 20s ease infinite;
-  animation: AnimateBG 20s ease infinite;
-  position: absolute;
-  z-index: -1;
-  
-}
+
+

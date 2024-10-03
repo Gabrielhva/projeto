@@ -42,41 +42,36 @@ let senha = ref("")
 
 <hr/>
 
+      
+
         <h2 class="conteudo1">Entrar com seu perfil</h2>
         <br/><br/>
 
         <p class="informacoespag"> Use sua conta para acessar seu painel de usuário </p>
         <br/>
 
-        <p class="informacoespag"> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro"> clicando aqui </NuxtLink></p> 
-         <!-- depois validar -->
-         <br/>
+        <p class="informacoespag2"> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro" class="clickaquilogin">clicando aqui. </NuxtLink></p> 
+       
+         
+        
+        <form v-on:submit.prevent="enviaFormulario()">
 
-         <form v-on:submit.prevent="enviaFormulario()">
-            <p class="informacoespag"> E-mail: </p>
+             <div class="campologin">
+            <p> E-mail: </p>
            <input v-model="email"/>
 
             <br/>
 
-            <p class="informacoespag"> Senha: </p>
+            <p> Senha: </p>
             <input v-model="senha"/>
-            <br/>
-            <br/>
+           
+            </div>
 
-            <button class="botao1"> Entrar </button>
-         
-            <!-- dois validar button -->
-
+            <button class="botao3"> Entrar </button>
+           
         </form>
 
-         
 
-        
-
-
-         
-
-    <hr/>
 
 
 

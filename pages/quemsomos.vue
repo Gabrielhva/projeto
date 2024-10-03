@@ -9,8 +9,7 @@ import '~/assets/css/quemsomos.css'
 <template>
 
 
-<h1>Quem Somos</h1>
-    <hr/>
+
     <h2 class="ajuste3">Bem-vindo ao Portal Saúde + </h2>
 
     <div class="ajuste3">
@@ -52,7 +51,7 @@ import '~/assets/css/quemsomos.css'
             questionários de autoavaliação e chat com profissionais de saúde.</li>
        
         <br/>
-        <p> Encontre ajuda  <NuxtLink to="/ " target="_blank" > clicando aqui.</NuxtLink></p>
+        <p> Encontre ajuda  <NuxtLink to="/ " target="_blank"  class="clickaquiquemsomos" > clicando aqui.</NuxtLink></p>
         <!--Encontre ajuda linkar com encotre ajuda-->
 
     </div>

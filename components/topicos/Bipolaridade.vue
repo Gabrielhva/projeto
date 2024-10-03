@@ -1,15 +1,20 @@
 <script setup>
 
-
+// import '~/assets/css/bipolaridade.css'
 </script>
 
 
 
 <template>
-    <h2>Bipolaridade</h2>
+    <div>
+        <h2>Bipolaridade</h2>
+    <hr>
+    <strong> O que é Bipolaridade?</strong>
+    </div>
 
-<hr/>
 
+
+    
 <p> 
 Transtorno afetivo bipolar é um distúrbio psiquiátrico complexo. Sua característica mais marcante é a alternância, às vezes súbita, de episódios de depressão
 com os de euforia (mania e hipomania) e de períodos assintomáticos entre eles. As crises podem variar de intensidade (leve, moderada e grave), frequência e duração.
@@ -20,14 +25,20 @@ de gatilho ou, até mesmo, independem deles.
 Em geral, essa perturbação do humor se manifesta tanto nos homens quanto nas mulheres, entre os 15 e os 25 anos, mas pode afetar também as crianças e pessoas mais velhas.
 </br></br>
 
-<strong>Tipos</strong>
+<div>
+    <strong>Tipos</strong>
+</div>
+
 </br>
 
 De acordo com o DSM.IV e o CID-10 (manuais internacionais de classificação diagnóstica), o transtorno bipolar pode ser classificado nos seguintes tipos:
 </br></br>
 
-<strong>Transtorno bipolar Tipo I</strong>
+<div>
+    <strong>Transtorno bipolar Tipo I</strong>
 </br>
+</div>
+
 
 O portador do distúrbio apresenta períodos de mania, que duram, no mínimo, sete dias, e fases de humor deprimido, que se estendem de duas semanas a vários meses.
 Tanto na mania quanto na depressão, os sintomas são intensos e provocam profundas mudanças comportamentais e de conduta, que podem comprometer não só os relacionamentos
@@ -35,31 +46,41 @@ familiares, afetivos e sociais, como também o desempenho profissional, a posiç
 grave a ponto de exigir internação hospitalar por causa do risco aumentado de suicídios e da incidência de complicações psiquiátricas.
 <br/><br/>
 
-<strong>Transtorno bipolar Tipo II</strong>
-<br/>
+<div>
+    <strong>Transtorno bipolar Tipo II</strong>
+    <br/>
+</div>
+
 
 Há uma alternância entre os episódios de depressão e os de hipomania (estado mais leve de euforia, excitação, otimismo e, às vezes, de agressividade), sem prejuízo maior
 para o comportamento e as atividades do portador.
 <br/><br/>
 
-<strong>Transtorno bipolar não especificado ou misto</strong>
+<div>
+    <strong>Transtorno bipolar não especificado ou misto</strong>
+</div>
+
 <br/>
 
 Os sintomas sugerem o diagnóstico de transtorno bipolar, mas não são suficientes nem em número nem no tempo de duração para classificar a doença em um dos dois tipos 
 anteriores.
  <br/><br/>
+<div>
+    <strong>Transtorno ciclotímico</strong>
+    <br/>
+</div>
 
- <strong>Transtorno ciclotímico</strong>
- <br/>
    
 É o quadro mais leve do transtorno bipolar, marcado por oscilações crônicas do humor, que podem ocorrer até no mesmo dia. O paciente alterna sintomas de hipomania e de
 depressão leve que, muitas vezes, são entendidos como próprios de um temperamento instável ou irresponsável.
 <br/><br/>
-</p>
 
-<p>
+<div>
+    
 <strong>Causas</strong>
 <br/>
+</div>
+
 
     
 Ainda não foi determinada a causa efetiva do transtorno bipolar, mas já se sabe que fatores genéticos, alterações em certas áreas do cérebro e nos níveis de vários
@@ -72,8 +93,11 @@ disfunções da
 tireoide, como o hipertireoidismo e o hipotireoidismo.
 <br/><br/>
 
-<strong>Diagnóstico</strong>
-<br/>
+<div>
+    <strong>Diagnóstico</strong>
+    <br/>
+</div>
+
 
 O diagnóstico do transtorno bipolar é clinico, baseado no levantamento da história e no relato dos sintomas pelo próprio paciente ou por um amigo ou familiar.
 Em geral, ele leva mais de dez anos para ser concluído, porque os sinais podem ser confundidos com os de doenças como esquizofrenia, depressão maior, síndrome 
@@ -121,6 +145,7 @@ A família pode precisar também de acompanhamento psicoterápico, por duas dife
 segunda, porque precisa ser orientada sobre como lidar no dia a dia com os portadores do transtorno. 
 
 </p>
+
 
 <hr> <br>
           <footer> 

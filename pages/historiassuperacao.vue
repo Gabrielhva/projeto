@@ -1,17 +1,19 @@
 <script setup>
 
+import '~/assets/css/historiasdesuperacao.css'
+
 
 </script>
 
 <template>
 
-<h2> Historias de Superação </h2>
+<h2 class="titulohistoria"> Historias de Superação </h2>
     <br/><br/>
 
-    <p> Conheça algumas historias de superação </p>
+    <p class="subtitulohistoriap"> Conheça algumas historias de superação </p>
     <br/>
 
-    <p>
+    <p class="conteudohistoriap">
     A estudante de Medicina Jelena Chagas, 25, conta que sempre foi uma pessoa alegre, brincalhona e cercada de amigos. Porém, há seis anos, ela começou a se sentir sem energia, 
     vontade de chorar diariamente e a ter pensamentos autodepreciativos. Com o passar do tempo, angustiada pela perda de rendimento nos estudos, a jovem passou a se preocupar de forma exagerada com tudo na vida.
 
@@ -31,7 +33,7 @@
 
     <br/><br/>
 
-<p>
+<p class="conteudohistoriap">
 Lúcio casado, com 40 anos de idade, sem filhos, enfermeiro, atua na área da saúde mental. Sentia-se ansioso, preocupado e extremamente cansado, passou a sentir uma dor psíquica intolerável, não buscou
 ajuda e tentou o suicídio. Foi socorrido, ficou alguns meses internado, se recuperou e no momento faz tratamento psiquiátrico. Lúcio já salvou tantas vidas, motivou muitas pessoas, mas devido a sua mente estar torturada
 pela depressão, desejou morrer. Lúcio não via outras alternativas. Ele segue realizando o tratamento, sendo constantemente monitorado, participa de um grupo de prevenção ao suicídio, tem uma rede de apoio com
@@ -40,7 +42,7 @@ acompanhamento psiquiátrico e psicológico, sente-se melhor e se arrepende do q
 
 <br/><br/>
 
-<p>
+<p class="conteudohistoriap">
  Clara Bauéb 27 e o controle sobre a sua ansiedade, ela conta que devido um trauma que sofreu na sua infância, desenvolveu um transtorno de ansiedade, que a fez procurar um psiquiatra, que recomendou um longo
  tratamento que durou 5 anos.
  Relata que atualmente ainda passa por algumas crises, porém aprendeu a lidar que são momentos da qual não possui algum controle.
@@ -51,7 +53,7 @@ acompanhamento psiquiátrico e psicológico, sente-se melhor e se arrepende do q
 <br/><br/>
 
 
-<p><NuxtLink to="/historiassuperacaosegunda">Proximo >></NuxtLink></p>
+<button class="botaohistoria"><NuxtLink to="/historiassuperacaosegunda"> Proximo <i class="fa-solid fa-arrow-right"></i></NuxtLink></button>
 
 
 

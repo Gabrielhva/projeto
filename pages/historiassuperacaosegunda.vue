@@ -6,13 +6,13 @@
 
 <template>
 
-<h2> Historias de Superação </h2>
+<h2 class="titulohistoria"> Historias de Superação </h2>
     <br/><br/>
 
-    <p> Conheça algumas historias de superação </p>
+    <p class="subtitulohistoriap"> Conheça algumas historias de superação </p>
     <br/>
 
-    <p> 
+    <p class="conteudohistoriap"> 
     Viviane 31 anos, durante seu relato, Viviane conta que os sintomas apareceram repentinamente, sem motivo algum e em um momento muito aleatório.
     Procurou diversos médicos para entender a causa dos sintomas, até que foi parar em um psiquiatra, que imediatamente começou o tratamento para
     ansiedade.
@@ -24,7 +24,7 @@
 
     <br/><br/>
 
-    <p>
+    <p  class="conteudohistoriap">
     Mariana separada, com 30 anos de idade, 02 filhas menores, entrou em um quadro depressivo e optou pelo suicídio, foi salva por 
     uma de suas filhas que pediu socorro. Mariana sentia uma tristeza profunda, era muito vaidosa, ruminações e cobranças por ânimo só a deixavam pior,
     ela foi aos poucos se entregando à doença, perdeu o interesse e o prazer pela vida. A pessoa neste estado parece ser incapaz de perceber outras maneiras
@@ -35,7 +35,7 @@
 
     <br/><br/>
 
-    <p> 
+    <p  class="conteudohistoriap"> 
             
     Alexandra tem 33 anos e também conseguiu superar um episódio depressivo intenso. Ela conta que, no começo, por medo de ser julgada, não falava para ninguém que estava deprimida. Somente
     familiares mais próximos sabiam. “Eu não conseguia gostar de mim, passei a me odiar, queria ser outra pessoa. Reconhecer e ir atrás de cuidados com os profissionais da área foi demorado. Mas chegou um momento
@@ -50,6 +50,9 @@
     Sexiste uma solução. Ao buscar ajuda com um psicólogo ou psiquiatra, você encontrará o apoio que precisa para melhorar e até se recuperar. O acolhimento e a orientação são realmente essenciais”, declara.
                 
     </p>
+
+
+    <button  class="botaohistoria"><NuxtLink to="/historiassuperacao"><i class="fa-solid fa-arrow-left"></i>Anterior</NuxtLink></button>
 
     <template/>
 

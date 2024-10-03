@@ -1,11 +1,14 @@
-<script setup>
 
+<script setup>
 
 </script>
 
-
 <template>
-    <h1>Transtorno obsessivo-compulsivo</h1>
+    <h2>Transtorno Obsessivo-compulsivo</h2>
+    <hr>
+     <h3>Que é Transtorno Obsessivo-compulsivo ?</h3> 
+
+
     <p>O transtorno obsessivo-compulsivo é caracterizado por obsessões,
          compulsões ou ambas. As obsessões são ideias, imagens ou impulsos
           recorrentes, persistentes, indesejados, que provocam ansiedade e 

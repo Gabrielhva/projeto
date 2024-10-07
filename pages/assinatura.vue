@@ -1,4 +1,3 @@
-
 <script setup>
 
 import '~/assets/css/assinatura.css'

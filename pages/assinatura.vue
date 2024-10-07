@@ -13,9 +13,6 @@ import '~/assets/css/assinatura.css'
 
 <div class="container">
 
-<img src="./imagens/black.jpg"/>
-
-<img src="./imagens/black.jpg"/>
 
     <div class="texto-sobre-imagem">
 

@@ -6,17 +6,19 @@
 }
 
 .tituloo{
+    padding-top: 40px;
     text-align: center;
     color: #3dff9c;
     background: black;
     margin: 0;
     font-size: 50px;
+    padding-bottom: 40px;
     
     
 }
 
 .imga{
-
+    border-radius: 20px;
     height: 360px;
     width: auto;
     display: block;
@@ -26,6 +28,7 @@
 }
 
 .containerr{
+    margin-top: -150px;
     display: flex;
     align-items: center;
     position: relative;
@@ -137,9 +140,22 @@
 }
 
 .buttonn{
-
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family:monospace ;
+    font-size: 30px;
+    white-space: nowrap;
+    cursor:pointer;
     font-size: 30px;
     width: 400px;
+    
+}
+
+.buttonn:hover{
+    
+    color: #3dff9c;
+    transform: scale(1.0);
     
 }
 

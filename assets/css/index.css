@@ -56,7 +56,7 @@ a{
 .botao{
     
     border: none;
-    
+    border-radius: 10px;
     background-color: rgb(255, 255, 255);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
     font-family:monospace ;
@@ -280,12 +280,12 @@ a{
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
-  padding-left: 40px;
+  padding-left: 30px;
   
   
 }
 .btn-search{
-  width: 550px;
+  margin-right: 160px;
   height: 50px;
   border-style: none;
   font-size: 20px;
@@ -309,7 +309,7 @@ a{
   
 }
 .input-search:focus{
-  width: 210px;
+  width: 162px;
   border-radius: 0px;
   background-color: transparent;
   border-bottom:1px solid rgba(255,255,255,.5);

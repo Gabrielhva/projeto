@@ -140,8 +140,11 @@ qrcode:""
         <p class="conteudoPagamento">
 
           <label>
-          Vencimento: <input v-model="infqrcode.vencimento">
+          <strong> Vencimento </strong>  
           </label>
+
+          <p> Hoje, validação ate as 17:00 </p>
+
 
         </p>
        

@@ -53,7 +53,7 @@ acompanhamento psiquiátrico e psicológico, sente-se melhor e se arrepende do q
 <br/><br/>
 
 
-<button class="botaohistoria"><NuxtLink to="/historiassuperacaosegunda"> Proximo <i class="fa-solid fa-arrow-right"></i></NuxtLink></button>
+<NuxtLink to="/historiassuperacaosegunda" class="clickaquihistoria"> Proximo <i class="fa-solid fa-arrow-right"></i></NuxtLink>
 
 
 

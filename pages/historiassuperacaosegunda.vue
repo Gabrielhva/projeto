@@ -52,7 +52,7 @@
     </p>
 
 
-    <button  class="botaohistoria"><NuxtLink to="/historiassuperacao"><i class="fa-solid fa-arrow-left"></i>Anterior</NuxtLink></button>
+   <NuxtLink to="/historiassuperacao"  class="clickaquihistoria"><i class="fa-solid fa-arrow-left"></i>Anterior</NuxtLink>
 
     <template/>
 

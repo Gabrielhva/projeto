@@ -1,4 +1,11 @@
-h1{
+
+.logo{
+    width: 300px;
+    height: 30x;
+    
+}
+
+.tituloo{
     text-align: center;
     color: #3dff9c;
     background: black;
@@ -8,7 +15,7 @@ h1{
     
 }
 
-img{
+.imga{
 
     height: 360px;
     width: auto;
@@ -18,14 +25,14 @@ img{
     
 }
 
-.container{
+.containerr{
     display: flex;
     align-items: center;
     position: relative;
     
 }
 
-.container2{
+.containerr2{
     display: flex;
     align-items:center;
     position:relative;
@@ -49,32 +56,32 @@ img{
     white-space: nowrap;
 }
 
-.texto{
+.textoo{
     color: #FFFFFF;
     font-size: 40px;
-    margin-bottom: 30px; /* Espaço entre os itens de texto */
+    margin-bottom: 30px; 
     text-align: center;
     margin-top: -20px;
     
 }
 
-.texto2 {
+.textoo2 {
     color: #3dff9c;
     font-size: 40px;
     
 }
 
-.texto3 {
+.textoo3 {
     color: #57ffc8;
     font-size: 30px;
     
     
 }
 
-.texto4{
+.textoo4{
     color: #bbb6b6;
     font-size: 20px;
-    margin-bottom: 20px; /* Espaço entre os itens de texto */
+    margin-bottom: 20px; 
     text-align: center;
     margin-top: -37px;
     margin-left: 240px;
@@ -82,7 +89,7 @@ img{
 }
 
 
-.texto5{
+.textoo5{
     margin-top: 55px;
     margin-bottom: -100px;
     color: #57ffc8;
@@ -93,7 +100,7 @@ img{
 
 }
 
-.texto6{
+.textoo6{
     margin-top: 120px;
     margin-bottom: -100px;
     color: #57ffc8;
@@ -104,7 +111,7 @@ img{
 
 }
 
-.texto7{
+.textoo7{
     margin-top: 120px;
     margin-bottom: -390px;
     color: #57ffc8;
@@ -115,7 +122,7 @@ img{
 
 }
 
-.botao{
+.botaoo{
 
     margin-top: 450px;
     margin-bottom: -310px;
@@ -129,21 +136,21 @@ img{
 
 }
 
-button{
+.buttonn{
 
     font-size: 30px;
     width: 400px;
     
 }
 
-.espaco{
+.espacoo{
     margin-top: -20px;
     text-align: center;
     margin-bottom: -30px;
     margin-left: -20px;
 }
 
-.fundo{
+.fundoo{
     margin-right: 0;
     margin-left: 0;
     width: 100%;
@@ -157,12 +164,28 @@ button{
 
 
 
-span{
+.spann{
 
     color: white;
 }
 
-
+.botao{
+    
+    border: none;
+    
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family:monospace ;
+    font-size: 30px;
+    white-space: nowrap;
+    cursor:pointer;
+    
+}
+.botao:hover{
+    
+    color: #FFFFFF;
+    transform: scale(1.2)
+}
 
 
 

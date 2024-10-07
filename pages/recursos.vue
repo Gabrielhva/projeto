@@ -42,3 +42,12 @@ import '~/assets/css/recursos.css'
 
 
 </template>
+
+<style scoped>
+
+a{
+    margin-left: 17px;
+}
+
+
+</style>

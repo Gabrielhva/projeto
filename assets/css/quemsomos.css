@@ -1,12 +1,11 @@
 .botao{
-    
+    border: none;
     color: rgb(0, 255, 191);
     background-color: rgb(255, 255, 255);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
     font-family:monospace ;
     font-size: 30px;
 }
-
 .container{
     display: flex;
     align-items: center;

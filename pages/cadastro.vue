@@ -4,7 +4,7 @@ import '~/assets/css/cadastro.css'
 
 const params = defineProps(["usuarios", "medicos","clinicas"])
 
-let categoria = ref("usuario")
+let categoria = ref("usuarios")
 
 
 
@@ -101,7 +101,7 @@ desordem:"",
     <form v-if="categoria =='usuario' " id="usuarioConvencional" v-on:submit.prevent="criarUsuarioConvencional()">
 
 
-      <p> 
+      <p class="conteudo"> 
 
         <label>
         Nome Completo:<input v-model="usuarioConvencional.nome">
@@ -110,7 +110,7 @@ desordem:"",
       </p>
 
       
-      <p>
+      <p class="conteudo">
 
         <label>
           Data Nascimento:<input v-model="usuarioConvencional.nascimento">
@@ -119,7 +119,7 @@ desordem:"",
       </p>
 
 
-      <p>
+      <p class="conteudo">
 
         <label>
           
@@ -129,7 +129,7 @@ desordem:"",
       </p>
 
 
-      <p>
+      <p class="conteudo">
 
         <label>
           Senha:<input v-model="usuarioConvencional.senha">
@@ -147,7 +147,7 @@ desordem:"",
       
                     
 
-    <button> Cadastrar </button> <button> Cancelar </button>
+    <button class="botao1"> Cadastrar </button> <button class="botao1"> Cancelar </button>
 
     </form>
 
@@ -211,7 +211,7 @@ desordem:"",
    <p class="conteudo">
 
    <label>
-    Foto: 
+    Foto: <input img src="https://i.imgur.com/uaNj0Mb.png">
    </label>
 
   </p>

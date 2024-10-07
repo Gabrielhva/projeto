@@ -1,7 +1,7 @@
 <script setup>
 
 const params = defineProps(["medicos"])
-import '~/assets/css/med_pag.css'
+
 
 console.log(params)
 </script>

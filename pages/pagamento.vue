@@ -1,0 +1,174 @@
+<script setup> 
+
+
+const params = defineProps(["credito", "qrcode"])
+
+let categoria = ref("credito")
+
+
+
+function alteraOpcaopagamento(valor){
+  categoria.value = valor
+}
+
+  const infcreditos= reactive({
+
+    nome:"",
+    numeroCartao:"",
+    cpf:"",
+    validade:"",
+    codigoSeguranca:"",
+    parcelamento:""
+
+  })
+
+  function criaropcaoCredito(){
+    params.credito.push(infcreditos)
+    alert("Pagamento efetuado com sucesso!")
+    console.log(params.credito)
+  }
+
+  const infqrcode = reactive({
+vencimento:"",
+valor:"",
+qrcode:""
+
+  })
+
+  function criaropcaoQrcode(){
+    params.qrcode.push(infqrcode)
+    alert("Pagamento efetuado com sucesso!")
+    console.log(params.qrcode)
+  }
+
+</script>
+
+
+
+<template>
+
+
+<h2 class="conteudo"> Finalize sua compra </h2>
+
+
+  <p class="conteudo ajuste2">Escolha seu meio de pagamento</p>
+  
+  
+
+   <div>
+
+    <button class="botao1" v-on:click="alteraOpcaopagamento('credito')"> Credito </button>
+
+    <button class="botao1" v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
+
+    </div >
+
+   
+
+    <form v-if="categoria =='credito' " id="infcreditos" v-on:submit.prevent="criaropcaoCredito()">
+
+
+      <p class="conteudo"> 
+
+        <label>
+        Nome do titular:<input v-model="infcreditos.nome">
+        </label>
+        
+      </p>
+
+      
+      <p class="conteudo">
+
+        <label>
+        Numero do cartão:<input v-model="infcreditos.numeroCartao">
+        </label>
+
+      </p>
+
+
+      <p class="conteudo">
+
+        <label>
+          
+        CPF do titular cartao:<input v-model="infcreditos.cpf">
+        </label>
+
+      </p>
+
+
+      <p class="conteudo">
+
+        <label>
+        Data de validade:<input v-model="infcreditos.validade">
+        </label>
+
+      </p>
+
+      
+      <p class="conteudo">
+
+        <label>
+        Codigo de codigoSeguranca:<input v-model="infcreditos.codigoSeguranca">
+        </label>
+
+      </p>
+
+
+      <p class="conteudo">
+
+    <label>
+    Parcelamento:<input v-model="infcreditos.parcelamento">
+    </label>
+
+  </p>
+
+                    
+
+    <button class="botao1"> Finalizar Compra </button> <button class="botao1"> Cancelar </button>
+
+    </form>
+
+
+
+    <form v-if="categoria =='qrcode'" id="infqrcode" v-on:submit.prevent="criaropcaoQrcode()">
+
+      
+
+
+        <p class="conteudo">
+
+          <label>
+          Vencimento: <input v-model="infqrcode.vencimento">
+          </label>
+
+        </p>
+       
+       
+      <p class="conteudo">
+
+        <label>
+          Valor do pedido: <input v-model="infqrcode.valor">
+        </label>
+      
+      </p>
+
+
+      <p class="conteudo">
+
+      <label>
+      QR Code: <input v-model="infqrcode.qrcode">
+      </label>
+
+      </p>
+
+
+      
+
+    <button class="botao1"> Finalizar Compra </button> <button class="botao1"> Cancelar </button>
+
+
+
+    </form>
+
+  
+</template>

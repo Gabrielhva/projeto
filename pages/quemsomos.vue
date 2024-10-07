@@ -10,7 +10,7 @@ import '~/assets/css/quemsomos.css'
 
 
 
-    <h2 class="ajuste3">Bem-vindo ao Portal Saúde + </h2>
+    <h2 class="ajuste3 ">Bem-vindo ao Portal Saúde + </h2>
 
     <div class="ajuste3">
     <p>No nosso portal, estamos comprometidos em oferecer informações de saúde confiáveis, 

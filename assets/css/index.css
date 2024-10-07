@@ -54,8 +54,8 @@ a{
  
  
 .botao{
-    border: solid 1px rgb(5, 179, 135);
-    border-radius: 20px;
+    
+    border: none;
     color: rgb(0, 255, 191);
     background-color: rgb(255, 255, 255);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
@@ -118,7 +118,7 @@ a{
 }
 .distperfil{
    
-    margin-left: 190px;
+    margin-left: 320px;
     margin-right: 10px;
     font-family: monospace;
     font-size: 20px;
@@ -149,7 +149,8 @@ a{
  
   .lupaimg{
     height: 30px;
-    margin-left: 200px;
+    margin-left: 10px;
+    
   }
  
 .medicos{
@@ -175,9 +176,9 @@ a{
 
 }
 
-.textocor{
+.textocor1{
 
-    color: rgb(0, 140, 255);
+    color: rgb(0, 0, 0);
     
 }
  
@@ -187,7 +188,7 @@ a{
     margin-left: 0;
     padding-right: 0;
     padding-left: 0;
-    width: 40px;
+    width: 10px;
     
 }
 
@@ -279,7 +280,9 @@ a{
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
-  padding-left: 50px;
+  padding-left: 40px;
+  
+  
 }
 .btn-search{
   width: 550px;
@@ -295,6 +298,7 @@ a{
   color:#000000 ;
   background-color:transparent;
   pointer-events:none;  
+  
 }
 .btn-search:focus ~ .input-search{
   width: 300px;
@@ -302,23 +306,72 @@ a{
   background-color: transparent;
   border-bottom:1px solid rgba(0, 0, 0, 0.5);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  
 }
 .input-search:focus{
-  width: 300px;
+  width: 210px;
   border-radius: 0px;
   background-color: transparent;
   border-bottom:1px solid rgba(255,255,255,.5);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  
 }
 
 .ajustebusca{
 
-  margin-left: 100px;
+  margin-left: 10px;
   width: 300px;
   
 }
 
 
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+
+.xdd {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+.titulo{
+
+  font-size: 50px;
+  box-sizing: border-box;
+  background-color:#00ffc827;
+  
+  white-space: nowrap;
+  cursor: auto;
+  object-fit: fill;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.titulocor2{
+
+  color: #00ffff;
+}
+
+.fundonovo{
+
+  background-color: #07d3a0;
+  width: 1897px;
+  height: 900px;
+  margin-top: 100px;
+}
+
+.cortxt{
+  color: white;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 
 
@@ -331,3 +384,94 @@ a{
 
 
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background:#ffffff;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size: 40px;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+
+
+  
+  .modalConteudo2{
+
+    background: white;
+    
+    text-align: center;
+    width: 500px;
+    margin: 50px;
+    border-radius: 10px;
+    
+  }
+ 
+  

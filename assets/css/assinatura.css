@@ -1,3 +1,10 @@
+
+.logo{
+    width: 300px;
+    height: 30x;
+    
+}
+
 .tituloo{
     text-align: center;
     color: #3dff9c;
@@ -52,7 +59,7 @@
 .textoo{
     color: #FFFFFF;
     font-size: 40px;
-    margin-bottom: 30px; /* Espaço entre os itens de texto */
+    margin-bottom: 30px; 
     text-align: center;
     margin-top: -20px;
     
@@ -74,7 +81,7 @@
 .textoo4{
     color: #bbb6b6;
     font-size: 20px;
-    margin-bottom: 20px; /* Espaço entre os itens de texto */
+    margin-bottom: 20px; 
     text-align: center;
     margin-top: -37px;
     margin-left: 240px;

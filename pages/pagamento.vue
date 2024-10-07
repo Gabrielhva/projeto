@@ -1,5 +1,7 @@
 <script setup> 
 
+import '~/assets/css/pagamento.css'
+
 
 const params = defineProps(["credito", "qrcode"])
 
@@ -48,18 +50,18 @@ qrcode:""
 <template>
 
 
-<h2 class="conteudo"> Finalize sua compra </h2>
+<h2 class="conteudoPagamento"> Finalize sua compra </h2>
 
 
-  <p class="conteudo ajuste2">Escolha seu meio de pagamento</p>
+  <p class="ajustePagamento">Escolha seu meio de pagamento</p>
   
   
 
    <div>
 
-    <button class="botao1" v-on:click="alteraOpcaopagamento('credito')"> Credito </button>
+    <button class="botaoPagamento" v-on:click="alteraOpcaopagamento('credito')"> Credito </button>
 
-    <button class="botao1" v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
+    <button class="botaoPagamento" v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
 
     </div >
 
@@ -68,7 +70,7 @@ qrcode:""
     <form v-if="categoria =='credito' " id="infcreditos" v-on:submit.prevent="criaropcaoCredito()">
 
 
-      <p class="conteudo"> 
+      <p class="conteudoPagamento"> 
 
         <label>
         Nome do titular:<input v-model="infcreditos.nome">
@@ -77,7 +79,7 @@ qrcode:""
       </p>
 
       
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
         <label>
         Numero do cartão:<input v-model="infcreditos.numeroCartao">
@@ -86,7 +88,7 @@ qrcode:""
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
         <label>
           
@@ -96,7 +98,7 @@ qrcode:""
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
         <label>
         Data de validade:<input v-model="infcreditos.validade">
@@ -105,7 +107,7 @@ qrcode:""
       </p>
 
       
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
         <label>
         Codigo de codigoSeguranca:<input v-model="infcreditos.codigoSeguranca">
@@ -114,7 +116,7 @@ qrcode:""
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
     <label>
     Parcelamento:<input v-model="infcreditos.parcelamento">
@@ -124,7 +126,7 @@ qrcode:""
 
                     
 
-    <button class="botao1"> Finalizar Compra </button> <button class="botao1"> Cancelar </button>
+    <button class="botaoPagamento"> Finalizar Compra </button> <button class="botaoPagamento"> Cancelar </button>
 
     </form>
 
@@ -135,7 +137,7 @@ qrcode:""
       
 
 
-        <p class="conteudo">
+        <p class="conteudoPagamento">
 
           <label>
           Vencimento: <input v-model="infqrcode.vencimento">
@@ -144,7 +146,7 @@ qrcode:""
         </p>
        
        
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
         <label>
           Valor do pedido: <input v-model="infqrcode.valor">
@@ -153,7 +155,7 @@ qrcode:""
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoPagamento">
 
       <label>
       QR Code: <input v-model="infqrcode.qrcode">
@@ -164,7 +166,7 @@ qrcode:""
 
       
 
-    <button class="botao1"> Finalizar Compra </button> <button class="botao1"> Cancelar </button>
+    <button class="botaoPagamento"> Finalizar Compra </button> <button class="botaoPagamento"> Cancelar </button>
 
 
 

@@ -1,5 +1,5 @@
 .botao{
-    border: solid 1px rgb(5, 179, 135);
+    border: none;
     border-radius: 20px;
     color: rgb(0, 255, 191);
     background-color: rgb(255, 255, 255);
@@ -22,7 +22,9 @@
 
 .ajuste3{
     color: rgb(75, 99, 85);
-    text-align:justify
+    text-align:justify;
+    
+    
     
 }
 

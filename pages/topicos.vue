@@ -25,6 +25,7 @@ function alteraMedico(valor){
 ul{
   margin-right: 30px;
   padding: 0;
+  text-align: justify;
 }
 
 li{
@@ -57,7 +58,7 @@ li:hover{
     color: rgb(75,99,85);
 }
 
- h2{
+.h2{
   text-align: center !important;
   background: red;
 }

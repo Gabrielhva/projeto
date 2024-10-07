@@ -1,6 +1,6 @@
 
 <script setup>
-// import '~/assets/css/autismo.css'
+
 </script>
 
 <template>
@@ -70,11 +70,6 @@
   </li>
 
 </ul>
-
-
-
-        
-        
 
          <br/>
          <p> <strong>De acordo com a forma como aparece, o TEA pode ser classificado em três tipos:</strong></p>

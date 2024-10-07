@@ -1,6 +1,6 @@
 <script setup>
 
-// import '~/assets/css/bipolaridade.css'
+
 </script>
 
 

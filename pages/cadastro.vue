@@ -77,20 +77,20 @@ desordem:"",
 <template>
 
 
-<h2 class="conteudo" >Cadastre-se</h2>
+<h2 class="conteudoCadastro" >Cadastre-se</h2>
 
 
-  <p class="conteudo ajuste2">Escolha seu tipo de conta</p>
+  <p class="ajusteCadastro">Escolha seu tipo de conta</p>
   
   
 
-   <div>
+   <div class="ajustebotaoCadastro">
 
-    <button class="botao1" v-on:click="alteraFormulario('usuario')">Usuario Convencional</button>
+    <button class="botaoCadastro" v-on:click="alteraFormulario('usuario')">Usuario Convencional</button>
 
-    <button class="botao1" v-on:click="alteraFormulario('profissional')">Suporte Profisional</button>
+    <button class="botaoCadastro" v-on:click="alteraFormulario('profissional')">Suporte Profisional</button>
     
-    <button class="botao1" v-on:click="alteraFormulario('clinica')">Clinicas Especializadas</button>
+    <button class="botaoCadastro" v-on:click="alteraFormulario('clinica')">Clinicas Especializadas</button>
 
     
 
@@ -101,7 +101,7 @@ desordem:"",
     <form v-if="categoria =='usuario' " id="usuarioConvencional" v-on:submit.prevent="criarUsuarioConvencional()">
 
 
-      <p class="conteudo"> 
+      <p class="conteudoCadastro"> 
 
         <label>
         Nome Completo:<input v-model="usuarioConvencional.nome">
@@ -110,7 +110,7 @@ desordem:"",
       </p>
 
       
-      <p class="conteudo">
+      <p class="conteudoCadastro">
 
         <label>
           Data Nascimento:<input v-model="usuarioConvencional.nascimento">
@@ -119,7 +119,7 @@ desordem:"",
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoCadastro">
 
         <label>
           
@@ -129,7 +129,7 @@ desordem:"",
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoCadastro">
 
         <label>
           Senha:<input v-model="usuarioConvencional.senha">
@@ -140,14 +140,14 @@ desordem:"",
 
       
 
-        <label>
+        <label class="conteudoCadastro">
           <input type="checkbox" required/> Li e aceito os termos de uso
         </label>
 
       
                     
 
-    <button class="botao1"> Cadastrar </button> <button class="botao1"> Cancelar </button>
+    <button class="botaoCadastro"> Cadastrar </button> <button class="botaoCadastro"> Cancelar </button>
 
     </form>
 
@@ -158,7 +158,7 @@ desordem:"",
       
 
 
-        <p class="conteudo">
+        <p class="conteudoCadastro">
 
           <label>
           Nome Completo: <input v-model="medicos.nome">
@@ -167,7 +167,7 @@ desordem:"",
         </p>
        
        
-      <p class="conteudo">
+      <p class="conteudoCadastro">
 
         <label>
         Data Nascimento: <input v-model="medicos.dataNascimento">
@@ -176,7 +176,7 @@ desordem:"",
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoCadastro">
 
       <label>
       E-mail: <input v-model="medicos.email">
@@ -185,7 +185,7 @@ desordem:"",
       </p>
 
 
-      <p class="conteudo">
+      <p class="conteudoCadastro">
 
       <label>
       Telefone: <input v-model="medicos.telefone">
@@ -194,7 +194,7 @@ desordem:"",
      </p>
 
 
-     <p class="conteudo">
+     <p class="conteudoCadastro">
 
         <label>
         Número de Registro Profissional (CRP): <input v-model="medicos.crp">
@@ -202,13 +202,13 @@ desordem:"",
 
      </p>
 
-     <p class="conteudo">
+     <p class="conteudoCadastro">
 
     <label>
     Especialização: <input v-model="medicos.desordem">
    </label>
 
-   <p class="conteudo">
+   <p class="conteudoCadastro">
 
    <label>
     Foto: <input img src="https://i.imgur.com/uaNj0Mb.png">
@@ -224,12 +224,12 @@ desordem:"",
 
 
 
-    <label class="conteudo" >
+    <label class="conteudoCadastro" >
     <input type="checkbox" required /> Li e aceito os termos de uso
     </label>
        
 
-    <button class="botao1"> Cadastrar </button> <button class="botao1"> Cancelar </button>
+    <button class="botaoCadastro"> Cadastrar </button> <button class="botaoCadastro"> Cancelar </button>
   
 
       
@@ -245,7 +245,7 @@ desordem:"",
 <form v-if="categoria =='clinica'"id="clinicasEspecializadas"  v-on:submit.prevent="criarClinica()">
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Nome da clinica:<input  v-model="clinicas.nomeClinica">
@@ -254,7 +254,7 @@ Nome da clinica:<input  v-model="clinicas.nomeClinica">
 </p>
 
  
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 CNPJ: <input v-model="clinicas.cnpj">
@@ -265,7 +265,7 @@ CNPJ: <input v-model="clinicas.cnpj">
 
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Endereço :<input v-model="clinicas.endereco">
@@ -276,7 +276,7 @@ Endereço :<input v-model="clinicas.endereco">
 
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Estado <input v-model="clinicas.estado">
@@ -286,7 +286,7 @@ Estado <input v-model="clinicas.estado">
 </p>
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Cidade: <input v-model="clinicas.cidade">
@@ -296,7 +296,7 @@ Cidade: <input v-model="clinicas.cidade">
 </p>
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Cep: <input v-model="clinicas.cep">
@@ -305,7 +305,7 @@ Cep: <input v-model="clinicas.cep">
 </p>
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Nome do usuario: <input v-model="clinicas.nomeUsuario">
@@ -316,7 +316,7 @@ Nome do usuario: <input v-model="clinicas.nomeUsuario">
 </p>
 
 
-<p class="conteudo">
+<p class="conteudoCadastro">
 
   <label>
 Senha: <input v-model="clinicas.senha">
@@ -328,13 +328,13 @@ Senha: <input v-model="clinicas.senha">
 
 
 
-<label>
+<label class="conteudoCadastro">
 <input type="checkbox" required/> Li e aceito os termos de uso
 
 </label>
        
 
-<button class="botao1"> Cadastrar </button> <button class="botao1"> Cancelar </button>
+<button class="botaoCadastro"> Cadastrar </button> <button class="botaoCadastro"> Cancelar </button>
 
 
       

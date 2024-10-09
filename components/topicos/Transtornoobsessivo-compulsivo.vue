@@ -4,8 +4,8 @@
 </script>
 
 <template>
-    <h2>Transtorno Obsessivo-compulsivo</h2>
-    <hr>
+    <h1>Transtorno Obsessivo-compulsivo</h1>
+    <hr><br>
      <h3>Que é Transtorno Obsessivo-compulsivo ?</h3> 
 
 

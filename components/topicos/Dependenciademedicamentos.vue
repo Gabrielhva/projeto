@@ -5,8 +5,8 @@
 
 
 <template>
-    <h2>Depedencia de Medicamentos</h2>
-    <hr>
+    <h1>Depedencia de Medicamentos</h1>
+    <hr><br>
      <h3>O Mal do Seculo !</h3> 
     <strong>Vício em medicamentos: entenda o mal do século</strong>
     <p> Tem sido cada vez mais comum encontrar jovens e adultos com doenças

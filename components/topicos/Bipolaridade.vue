@@ -7,8 +7,8 @@
 
 <template>
     <div>
-        <h2>Bipolaridade</h2>
-    <hr>
+        <h1>Bipolaridade</h1>
+    <hr><br>
     <strong> O que é Bipolaridade?</strong>
     </div>
 
@@ -144,11 +144,11 @@ Alternar a fase de depressão com a de mania pode dar a falsa sensação de que 
 A família pode precisar também de acompanhamento psicoterápico, por duas diferentes razões: primeira, porque o distúrbio pode afetar todos que convivem diretamente com o paciente;
 segunda, porque precisa ser orientada sobre como lidar no dia a dia com os portadores do transtorno. 
 
-</p>
+</p><br>
 
 
 <hr> <br>
           <footer> 
              © 2024 Portal saúde+ - Todos os direitos Reservados 
-          </footer>
+          </footer><br>
 </template>

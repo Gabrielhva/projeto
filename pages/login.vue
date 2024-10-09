@@ -42,15 +42,15 @@ let senha = ref("")
 
 <hr/>
 
-      
+    <div class="divlogin">
 
-        <h2 class="conteudo1">Entrar com seu perfil</h2>
+        <h2 class="titulologin">Entrar com seu perfil</h2>
         <br/><br/>
 
-        <p class="informacoespag"> Use sua conta para acessar seu painel de usuário </p>
+        <p class="subtitulo"> Use sua conta para acessar seu painel de usuário </p>
         <br/>
 
-        <p class="informacoespag2"> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro" class="clickaquilogin">clicando aqui. </NuxtLink></p> 
+        <p class="informacoespag"> Ainda nao tem uma conta? Cadastre-se agora mesmo,<NuxtLink to="/cadastro" class="clickaquilogin">clicando aqui. </NuxtLink></p> 
        
          
         
@@ -67,10 +67,11 @@ let senha = ref("")
            
             </div>
 
-            <button class="botao3"> Entrar </button>
+            <button class="botaologin"> Entrar </button>
            
         </form>
 
+    </div>
 
 
 

@@ -63,7 +63,7 @@ let senha = ref("")
             <br/>
 
             <p> Senha: </p>
-            <input v-model="senha"/>
+            <input type="password" v-model="senha"/>
            
             </div>
 

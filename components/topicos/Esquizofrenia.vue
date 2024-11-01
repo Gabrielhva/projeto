@@ -4,8 +4,8 @@
 </script>
 
 <template>
-    <h2>Esquizofrenia</h2>
-    <hr>
+    <h1>Esquizofrenia</h1>
+    <hr><br>
      <h3>Que é o Esquizofrenia?</h3> 
 
     

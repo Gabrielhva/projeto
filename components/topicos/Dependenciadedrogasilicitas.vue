@@ -6,7 +6,7 @@
 
 
 <template>
-    <h2>Dependencia de Drogas Ilicitas</h2>
+    <h1>Dependencia de Drogas Ilicitas</h1>
     <hr>
      <h3>Como se Define?</h3> 
     <p>Define-se como uma dependência de um "tóxico" ou droga que provoca adicionalmente perturbações psicológicas.<br/>

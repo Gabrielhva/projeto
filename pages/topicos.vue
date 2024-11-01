@@ -21,65 +21,68 @@ function alteraMedico(valor){
 
 
 <style scoped>
-
-ul{
+ul {
   margin-right: 30px;
   padding: 0;
-  text-align: justify;
+  text-align: justify; /* Justifica o texto dentro da lista */
 }
 
-li{
+li {
   margin-bottom: 20px;
   background: rgb(135, 236, 211);
   color: white;
   padding: 10px;
-  text-align: center;
+  text-align: justify; /* Altera de center para justify */
   cursor: pointer;
   border: solid;
   border-radius: 50px;
 }
-li:hover{
+
+li:hover {
   background: darkgreen;
   transition: 0.3s;
+  text-align: justify; /* Altera de center para justify */
 }
 
-.divisao{
+.divisao {
   display: flex;
 }
-.topicos{
+
+.topicos {
   text-align: center;
   width: 800px;
 }
 
-.conteudo{
+.conteudo {
   width: 100%;
-  text-align: justify;
-    font-size: 18px;
-    color: rgb(75,99,85);
+  text-align: justify; /* Mantém o texto justificado */
+  font-size: 18px;
+  color: rgb(75, 99, 85);
 }
 
-.h2{
+.h2 {
   text-align: center !important;
   background: red;
 }
 
-.esquerda{
-  text-align: center;
+.esquerda {
+  text-align: justify; /* Altera de center para justify */
   font-size: 18px;
-  color: rgb(75,99,85);
+  color: rgb(75, 99, 85);
 }
-.body{
+
+.body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-div{
-  text-align: center;
-  color: rgb(75,99,85);
-}
-h1{
-  text-align: center;
+div {
+  text-align: justify; /* Altera de center para justify */
+  color: rgb(75, 99, 85);
 }
 
+h1 {
+  text-align: center;
+}
 </style>
 
 <template>

@@ -5,32 +5,26 @@
 
 <template>
 
-    <h2>Autismo</h2>
-    <hr>
+    <h1>Autismo</h1>
+    <hr><br/>
     
-     <h3>Que é o Autismo?</h3> 
-
-     <div>
-      
-
-
-     </div>
-
+     <h3>Que é o Autismo?</h3> <br/>
      
- <h4>Os sinais mais comuns do TEA são:</h4> <br/>
+
 
 <div class="esquerda">
 
-   <p>
+<p>
  O Autismo (Transtorno do Espectro Autista – TEA) é um problema no desenvolvimento neurológico 
  que prejudica a organização de pensamentos, sentimentos e emoções.
  Tem como características a dificuldade de comunicação por falta de domínio da
   linguagem e do uso da imaginação, a dificuldade de socialização e o comportamento 
   limitado e repetitivo.
  Os sinais de alerta surgem nos primeiros meses de vida, mas a confirmação do 
- diagnóstico costuma ocorrer aos dois ou três anos de idade. </p> 
+ diagnóstico costuma ocorrer aos dois ou três anos de idade. </p> <br/>
+ 
 
-<ul >
+<ul >  <strong> sinais mais comuns do TEA são: </strong>  <br/> <br>
  <li>
      Apresentar atraso anormal na fala;
  </li>

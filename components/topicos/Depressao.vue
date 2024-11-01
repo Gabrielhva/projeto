@@ -6,22 +6,15 @@
 
 <template>
 
-<div class="esquerda">
-    <div>
-        <center><h2>
-        Depressão
-    </h2></center>
-    </div>
-    
-    <hr>
-    <div>
-        <center>
-            <h3>Que é Depressão ?</h3>
-        </center> 
-    </div>
-  
 
-     
+        <h1> Depressão</h1>
+    <hr><br>
+            <h3>Que é Depressão ?</h3><br>
+    
+    
+
+<div class="esquerda">
+   
         <p>
 
 A depressão é um transtorno comum, mas sério, que interfere na vida diária, capacidade de trabalhar, dormir, estudar, comer e aproveitar a vida. É causada por uma combinação
@@ -31,9 +24,9 @@ Alguns tipos de depressão tendem a ocorrer em famílias. No entanto, a depress�
 com transtornos depressivos apresentam os mesmos sintomas. A gravidade, frequência e duração variam dependendo do indivíduo e de sua condição específica. </p>
 </br></br>
 
-<div>
+<div><br>
     <h2>Principais fatos</h2>
-</div>
+</div><br>
 
 </br>
 
@@ -43,10 +36,10 @@ Mulheres são mais afetadas que homens.
 No pior dos casos, a depressão pode levar ao suicídio.
 Existem vários tratamentos medicamentosos e psicológicos eficazes para depressão. 
 </br></br>
-<div>
+<div><br>
     <h3>Tipos de sintomas</h3>
 </br>
-</div>
+</div><br>
 
 
 Um episódio depressivo pode ser categorizado como leve, moderado ou grave, a depender da intensidade dos sintomas. Um indivíduo com um episódio depressivo leve
@@ -67,10 +60,10 @@ distúrbios do sono e de apetite e podem ter sentimento de culpa ou baixa autoes
 humor exaltado ou irritado, excesso de atividades, pressão de fala, autoestima inflada e uma menor necessidade de sono, bem como a aceleração do pensamento.
 </br></br>
 
-<div>
+<div><br>
     <h4>Fatores que contribuem e prevenção</h4>
 
-</div>
+</div><br>
 
 </br>
 
@@ -79,9 +72,9 @@ desenvolver depressão. A depressão pode, por sua vez, levar a mais estresse e 
 Há relação entre a depressão e a saúde física; doenças cardiovasculares, por exemplo, podem levar à depressão e vice e versa.
 </br></br>
 
-<div>
+<div><br>
     <h5>Diagnóstico e tratamento</h5> 
-</div>
+</div><br>
        
 </br>
 
@@ -93,9 +86,9 @@ Os tratamentos psicossociais também são efetivos para depressão leve. Os anti
 não devem ser usados para tratar depressão em crianças e não são, também, a primeira linha de tratamento para adolescentes. É preciso utilizá-los com cautela. <br><br>
 </br></br>
 
-<div>
+<div><br>
     <strong>O que você pode fazer se estiver se sentindo para baixo ou acha que pode estar deprimido(a)?</strong>
-</div>
+</div><br>
 
 </br></br>
 
@@ -112,7 +105,7 @@ não devem ser usados para tratar depressão em crianças e não são, também, 
 
 </ul>
 
-     </div>
+     </div><br>
 
 
 

@@ -1,5 +1,6 @@
 <script>
-import '~/assets/css/recursos.css'
+
+
 </script>
 
 
@@ -36,7 +37,7 @@ import '~/assets/css/recursos.css'
     <hr/>
 
 
-
+    
    
 
 

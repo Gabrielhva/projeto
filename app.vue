@@ -60,7 +60,7 @@ const medicos = reactive([
     email: "pedro.almeida@example.com",
     telefone: "(61) 99887-6655",
     crp: "CRP-77889",
-    desordem: "Bipolaridade",
+    desordem: "Esquizofrenia",
     foto: "https://i.imgur.com/38iLu9a.png"
   },
   {
@@ -100,7 +100,7 @@ const medicos = reactive([
     email: "roberto.ferreira@example.com",
     telefone: "(11) 97654-3210",
     crp: "CRP-66778",
-    desordem: "Autismo",
+    desordem: "Ansiedade",
     foto: "https://i.imgur.com/7Lb03sQ.png"
   }
 ]);

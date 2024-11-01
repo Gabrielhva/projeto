@@ -31,6 +31,7 @@ import '~/assets/css/assinatura.css'
     <div class="textoo textoo7"><strong><span class="spann">✓</span> Maior taxa de resposta</strong></div>
 
     <div class="textoo botaoo"><button class="buttonn">Assinar</button></div>
+    
 
 
     </div>

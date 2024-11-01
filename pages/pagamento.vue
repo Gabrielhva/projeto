@@ -50,18 +50,18 @@ qrcode:""
 <template>
 
 
-<h2 class="conteudoPagamento"> Finalize sua compra </h2>
+<h2 class="tituloPagamento"> Finalize sua compra </h2>
 
 
   <p class="ajustePagamento">Escolha seu meio de pagamento</p>
   
   
 
-   <div>
+   <div class="divPagamento">
 
     <button class="botaoPagamento" v-on:click="alteraOpcaopagamento('credito')"> Credito </button>
 
-    <button class="botaoPagamento" v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
+    <button class="botaoPagamento ajustelinhaPag1" v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
 
     </div >
 
@@ -73,7 +73,7 @@ qrcode:""
       <p class="conteudoPagamento"> 
 
         <label>
-        Nome do titular:<input v-model="infcreditos.nome">
+        Nome do titular: <input v-model="infcreditos.nome">
         </label>
         
       </p>
@@ -82,7 +82,7 @@ qrcode:""
       <p class="conteudoPagamento">
 
         <label>
-        Numero do cartão:<input v-model="infcreditos.numeroCartao">
+        Numero do cartão: <input v-model="infcreditos.numeroCartao">
         </label>
 
       </p>
@@ -92,7 +92,7 @@ qrcode:""
 
         <label>
           
-        CPF do titular cartao:<input v-model="infcreditos.cpf">
+        CPF do titular cartao: <input v-model="infcreditos.cpf">
         </label>
 
       </p>
@@ -101,7 +101,7 @@ qrcode:""
       <p class="conteudoPagamento">
 
         <label>
-        Data de validade:<input v-model="infcreditos.validade">
+        Data de validade: <input v-model="infcreditos.validade">
         </label>
 
       </p>
@@ -110,7 +110,7 @@ qrcode:""
       <p class="conteudoPagamento">
 
         <label>
-        Codigo de codigoSeguranca:<input v-model="infcreditos.codigoSeguranca">
+        CVV: <input v-model="infcreditos.codigoSeguranca">
         </label>
 
       </p>
@@ -119,14 +119,14 @@ qrcode:""
       <p class="conteudoPagamento">
 
     <label>
-    Parcelamento:<input v-model="infcreditos.parcelamento">
+    Parcelamento: <input v-model="infcreditos.parcelamento">
     </label>
 
   </p>
 
                     
 
-    <button class="botaoPagamento"> Finalizar Compra </button> <button class="botaoPagamento"> Cancelar </button>
+    <button class="botaoPagamento ajustelinhaPag2"> Finalizar Compra </button> <button class="botaoPagamento ajustelinhaPag2"> Cancelar </button>
 
     </form>
 

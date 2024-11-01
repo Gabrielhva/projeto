@@ -31,7 +31,6 @@ function alteraOpcaopagamento(valor){
   }
 
   const infqrcode = reactive({
-vencimento:"",
 valor:"",
 qrcode:""
 
@@ -119,7 +118,7 @@ qrcode:""
       <p class="conteudoPagamento">
 
     <label>
-    Parcelamento: <input v-model="infcreditos.parcelamento">
+    Valor: <input v-model="infcreditos.parcelamento">
     </label>
 
   </p>
@@ -147,16 +146,6 @@ qrcode:""
 
 
         </p>
-       
-       
-      <p class="conteudoPagamento">
-
-        <label>
-          Valor do pedido: <input v-model="infqrcode.valor">
-        </label>
-      
-      </p>
-
 
       <p class="conteudoPagamento">
 

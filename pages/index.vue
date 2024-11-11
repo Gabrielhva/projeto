@@ -229,7 +229,7 @@
   
   
 <div class="cardassinar cardassinar_body">
-  <img src="/public/med3d.jpg" class="med3dimg"/>
+  <img src="/public/assinft.jpeg" class="med3dimg"/>
   <strong class="cardassinartxt">Garanta já!</strong>
   <strong>A assinatura para Especialistas ou Clínicas</strong>
   <strong>Nela  você terá acesso a:</strong>

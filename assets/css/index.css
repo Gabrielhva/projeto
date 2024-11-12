@@ -739,13 +739,13 @@ color: rgb(0, 255, 157);
 
 .med3dimg{
   
-  margin-left: 400px;
-  width: 350px;
-  height: 400px;
+  margin-left: 390px;
+  width: 400px;
+  height: 470px;
   display: flexbox;
   position: absolute;
  border-radius: 20px;
- margin-top: -15px;
+ margin-top: -40px;
 }
 
 

@@ -1,5 +1,6 @@
 <script setup>
 
+import '~/assets/css/recursos.css'
 
 </script>
 

@@ -1,8 +1,22 @@
 <script setup>
 
 import '~/assets/css/medlist.css'
+import axios from 'axios'
 
-const params = defineProps(["medicos"])
+
+async function buscarmed () {
+  const resposta = axios.get("http://10.60.44.45:3000/doctor/read")
+  console.log(resposta)
+  medicos = resposta.data.lista
+}
+
+const medicos = reactive ([])
+
+onMounted(
+  () => {
+    buscarmed()
+  }
+)
 
 let mostrar = ref(1)
 
@@ -19,16 +33,17 @@ let mostrar = ref(1)
     
   <div class="ajuste">
 
-    <section v-for="medico in params.medicos">
+    <section v-for="medico in medicos">
 
       <div v-if="mostrar == medico.id">
         <div class="modalFade" v-on:click="alteramostrar(-1)"></div>
           <div class="modalConteudo">      
             <h2>
-            {{ medico.nome }}
+            {{ medico.name }}
             </h2>
             <p>{{ medico.desordem }}</p>
             <p>{{ medico.email }}</p>
+            <p>{{ medico.crp}}</p>
             <button v-on:click="alteramostrar(-1)">Fechar</button>
 
         </div>

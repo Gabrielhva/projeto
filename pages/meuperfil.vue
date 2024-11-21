@@ -1,6 +1,5 @@
 <script setup>
 
-
 import '~/assets/css/meuperfil.css'
 
 </script>
@@ -34,47 +33,42 @@ import '~/assets/css/meuperfil.css'
 			<div class="card-body">
 				<div class="row gutters">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-						<h6 class="mb-3 text-primary">Personal Details</h6>
+						<h6 class="mb-3 text-primary">Informações Pessoais</h6>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 						<div class="form-group">
-							<label for="fullName">Full Name</label>
-							<input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+							<label for="fullName">Nome Completo</label>
+							<input type="text" class="form-control" id="fullName" placeholder="Nome Completo:">
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 ">
 						<div class="form-group">
 							<label for="eMail">Email</label>
-							<input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
+							<input type="email" class="form-control" id="eMail" placeholder="Email:">
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 						<div class="form-group">
-							<label for="phone">Phone</label>
-							<input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+							<label for="phone">Senha</label>
+							<input type="text" class="form-control" id="phone" placeholder="Senha:">
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 						<div class="form-group">
-							<label for="website">Website URL</label>
-							<input type="url" class="form-control" id="website" placeholder="Website url">
+							<label for="website">Data de Nascimento</label>
+							<input type="url" class="form-control" id="website" placeholder="Data de Nascimento:">
 						</div>
 					</div>
 				</div>
 				<div class="row gutters">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-						<h6 class="mb-3 text-primary">Address</h6>
+						<h6 class="mb-3 text-primary">Endereço:</h6>
 					</div>
+					
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 						<div class="form-group">
-							<label for="Street">Street</label>
-							<input type="name" class="form-control" id="Street" placeholder="Enter Street">
-						</div>
-					</div>
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-						<div class="form-group">
-							<label for="ciTy">City</label>
-							<input type="name" class="form-control" id="ciTy" placeholder="Enter City">
+							<label for="ciTy">Cidade</label>
+							<input type="name" class="form-control" id="ciTy" placeholder="Sua Cidade:">
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">

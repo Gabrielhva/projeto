@@ -2,7 +2,7 @@
 
 <script setup>
 
-import axios from 'axios'
+
 
 async function buscarmed () {
   const resposta = axios.get("http://10.60.44.45:3000/doctor/read")

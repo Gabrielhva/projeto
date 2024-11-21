@@ -49,7 +49,10 @@ qrcode:""
 <template>
 
 
+<div class="fundoPag">
+
 <h2 class="tituloPagamento"> Finalize sua compra </h2>
+
 
 
   <p class="ajustePagamento">Escolha seu meio de pagamento</p>
@@ -58,9 +61,9 @@ qrcode:""
 
    <div class="divPagamento">
 
-    <button class="botaoPagamento" v-on:click="alteraOpcaopagamento('credito')"> Credito </button>
+    <button class="botaoPagamento ajustexd" v-on:click="alteraOpcaopagamento('credito')"> Credito </button>
 
-    <button class="botaoPagamento ajustelinhaPag1" v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
+    <button class="botaoPagamento ajustelinhaPag1 " v-on:click="alteraOpcaopagamento('qrcode')"> Pix </button>
 
     </div >
 
@@ -162,7 +165,9 @@ qrcode:""
 
 
 
-    </form>
 
+
+    </form>
+</div>
   
 </template>

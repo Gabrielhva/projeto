@@ -41,7 +41,7 @@ let senha = ref("")
 <template>
 
 <hr/>
-
+<section class="fundologin">
     <div class="divlogin">
 
         <h2 class="titulologin">Entrar com seu perfil</h2>
@@ -73,7 +73,7 @@ let senha = ref("")
 
     </div>
 
-
+</section>
 
 
         

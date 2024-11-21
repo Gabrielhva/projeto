@@ -53,7 +53,8 @@ desordem:"",
     cidade:"",
     cep:"",
     nomeUsuario:"",
-    senha:"",
+    email:"",
+    senha:""
 
 
 
@@ -312,6 +313,14 @@ Nome do usuario: <input v-model="clinicas.nomeUsuario">
 </label>
 
 
+
+</p>
+
+<p class="conteudoCadastro">
+
+<label>
+E-mail: <input v-model="clinicas.email">
+</label>
 
 </p>
 

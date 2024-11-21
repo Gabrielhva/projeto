@@ -9,6 +9,13 @@ async function buscarmed () {
   console.log(resposta)
 }
 
+import axios from 'axios'
+
+async function buscardisorder () {
+  const resposta = axios.get("http://10.60.44.23:3000/disorder/read")
+  console.log(resposta)
+}
+
 let categoria = ref("depressao")
 
 const medicos = reactive ([])

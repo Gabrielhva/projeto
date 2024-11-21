@@ -1,9 +1,12 @@
 <script setup> 
 
 import '~/assets/css/pagamento.css'
-
+import { useRoute } from 'vue-router'
 
 const params = defineProps(["credito", "qrcode"])
+
+const route = useRoute()
+const valorFromQuery = (route.query.tipo === 'doctor')? 49.99 : 119.99
 
 let categoria = ref("credito")
 
@@ -14,14 +17,12 @@ function alteraOpcaopagamento(valor){
 }
 
   const infcreditos= reactive({
-
     nome:"",
     numeroCartao:"",
     cpf:"",
     validade:"",
     codigoSeguranca:"",
-    parcelamento:""
-
+    parcelamento:valorFromQuery
   })
 
   function criaropcaoCredito(){
@@ -31,9 +32,8 @@ function alteraOpcaopagamento(valor){
   }
 
   const infqrcode = reactive({
-valor:"",
-qrcode:""
-
+    valor:"",
+    qrcode:""
   })
 
   function criaropcaoQrcode(){
@@ -94,7 +94,7 @@ qrcode:""
 
         <label>
           
-        CPF do titular cartao: <input v-model="infcreditos.cpf">
+        CPF do titular cartão: <input v-model="infcreditos.cpf">
         </label>
 
       </p>
@@ -103,7 +103,7 @@ qrcode:""
       <p class="conteudoPagamento">
 
         <label>
-        Data de validade: <input v-model="infcreditos.validade">
+        Data de validade: <input placeholder="MM/AA" type="date" v-model="infcreditos.validade">
         </label>
 
       </p>
@@ -121,7 +121,7 @@ qrcode:""
       <p class="conteudoPagamento">
 
     <label>
-    Valor: <input v-model="infcreditos.parcelamento">
+    Valor: <label> {{infcreditos.parcelamento}} </label>
     </label>
 
   </p>
@@ -145,7 +145,7 @@ qrcode:""
           <strong> Vencimento </strong>  
           </label>
 
-          <p> Hoje, validação ate as 17:00 </p>
+          <p class="ajustevalid"> Hoje, validação ate as 17:00 </p>
 
 
         </p>
@@ -153,16 +153,19 @@ qrcode:""
       <p class="conteudoPagamento">
 
       <label>
-      QR Code: <input v-model="infqrcode.qrcode">
+      QR Code: 
       </label>
-
+      <div>
+      <img v-if="route.query.tipo === 'doctor'" class="qrtamanho" src="/public/qrdoctor.jpg">
+      <img v-else class="qrtamanho" src="/public/qrclinica.jpg">
+      </div>
       </p>
 
 
       
-
-    <button class="botaoPagamento"> Finalizar Compra </button> <button class="botaoPagamento"> Cancelar </button>
-
+    
+    <button class="botaoPagamento ajustelinhaPag3 ajustecimapag3"> Finalizar Compra </button> <button class="botaoPagamento ajustelinhaPag3"> Cancelar </button>
+   
 
 
 

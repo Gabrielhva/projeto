@@ -19,7 +19,7 @@
 .conteudoPagamento{
     color: rgb(75, 99, 85);
     margin-left: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     
     
     margin-top: 20px;
@@ -63,7 +63,13 @@
     margin-left: 495px;
 }
 
+.ajustelinhaPag3{
+    margin-left: 390px;
+}
 
+.ajustecimapag3{
+    margin-top: 10px;
+}
 .fundoPag{
 
     background:rgb(222, 241, 237);
@@ -72,9 +78,9 @@
     padding-left: 2px;
     padding-right: 200px;
     margin-top: 200px;
-    height: 400px;
+    height: 550px;
     position: relative;
-    max-height: 400px;
+    max-height: 550px;
     border-radius: 50px;
     
 
@@ -85,4 +91,18 @@
 .ajustexd{
     margin-left: 295px;
     
+}
+
+
+.qrtamanho{
+    width: 180px;
+    margin-left: 1px;
+    margin-top: 20px;
+    
+}
+
+.ajustevalid{
+    margin-left: 1px;
+    color: rgb(75, 99, 85);
+    margin-top:12px;
 }

@@ -30,7 +30,7 @@ import '~/assets/css/assinatura.css'
     <div class="textoo textoo6"><strong><span class="spann">✓</span> Perfil mais personalizado</strong></div>
     <div class="textoo textoo7"><strong><span class="spann">✓</span> Maior taxa de resposta</strong></div>
 
-     <NuxtLink to="/pagamento"> <div class="textoo botaoo"><button class="buttonn">Assinar</button> </div> </NuxtLink>
+     <NuxtLink :to="{ path: '/pagamento', query: { tipo: 'doctor' } }"> <div class="textoo botaoo"><button class="buttonn">Assinar</button> </div> </NuxtLink>
     
 
 
@@ -46,7 +46,7 @@ import '~/assets/css/assinatura.css'
     <div class="textoo textoo6"><strong><span class="spann">✓</span> Layout de Clínica personalizado</strong></div>
     <div class="textoo textoo7"><strong><span class="spann">✓</span> Maior taxa de resposta</strong></div>
     
-     <NuxtLink to="/pagamento"> <div class="textoo botaoo"><button class="buttonn">Assinar</button></div> </NuxtLink>
+     <NuxtLink :to="{ path: '/pagamento', query: { tipo: 'clinic' } }"> <div class="textoo botaoo"><button class="buttonn">Assinar</button></div> </NuxtLink>
     </div>
     </div>
 

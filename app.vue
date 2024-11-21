@@ -139,9 +139,9 @@ const medicos = reactive([
     </div>
 
     
-    <p class="distperfil">Perfil</p><button type="button" class="perfil">
+    <p class="distperfil">Perfil</p><NuxtLink to="/meuperfil"><button type="button" class="perfil">
     
-    <img src="/public/user1.png" class="fotoperfil"></button>
+    <img src="/public/user1.png" class="fotoperfil"></button></NuxtLink>
     
 
     </div>

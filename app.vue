@@ -42,6 +42,7 @@ const medicos = reactive([
     crp: "CRP-33445",
     desordem: "Autismo",
     foto: "https://i.imgur.com/yJv283w.png"
+    
   },
   {
     id: 5,

@@ -54,6 +54,6 @@ Este é um dos diferentes tipos de transtorno da personalidade e, embora não
 
     <hr> <br>
           <footer> 
-             © 2024 Portal saúde+ - Todos os direitos Reservados
+             © 2025 Portal saúde+ - Todos os direitos Reservados
           </footer>
 </template>

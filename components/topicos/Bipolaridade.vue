@@ -151,6 +151,6 @@ segunda, porque precisa ser orientada sobre como lidar no dia a dia com os porta
 
 <hr> <br>
           <footer> 
-             © 2024 Portal saúde+ - Todos os direitos Reservados 
+             © 2025 Portal saúde+ - Todos os direitos Reservados 
           </footer><br>
 </template>

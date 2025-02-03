@@ -7,7 +7,7 @@
 
     <h1>Esquizofrenia</h1>
 
-    <br/>
+   
     <hr>
     <br/>
      <h3>Que é o Esquizofrenia?</h3> 
@@ -62,7 +62,7 @@ Outros medicamentos do tipo ansiolíticos, como Diazepam, ou estabilizadores do 
 
 <hr> <br><br/>
           <footer> 
-             © 2024 Portal saúde+ - Todos os direitos Reservados
+             © 2025 Portal saúde+ - Todos os direitos Reservados
           </footer>
 </template>
 

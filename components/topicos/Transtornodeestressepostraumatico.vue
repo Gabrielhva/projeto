@@ -84,6 +84,6 @@ junto com psicoterapia ou outros tratamentos
 
 <hr>
           <footer> 
-             © 2024 Portal saúde+ - Todos os direitos Reservados
+             © 2025 Portal saúde+ - Todos os direitos Reservados
           </footer>
 </template>

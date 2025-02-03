@@ -49,7 +49,6 @@ Os rituais podem ser realizados de forma precisa de acordo com regras rígidas. 
 
 <strong>Maioria das pessoas com TOC possui tanto obsessões como compulsões:</strong> </p>
 
-
 <p>
 Grande parte das pessoas com TOC tem pelo menos um pouco cientes de que seus pensamentos obsessivos não refletem riscos reais ou a realidade e que seus comportamentos compulsivos são excessivos. No entanto, algumas pessoas estão convencidas que suas obsessões são bem fundamentadas e que suas compulsões são plausíveis. 
 A maioria das pessoas com TOC está ciente de que seus comportamentos compulsivos são excessivos. Por isso, elas geralmente realizam os rituais de maneira secreta, mesmo quando esses rituais consomem muitas horas do dia.
@@ -57,9 +56,11 @@ Dessa forma, os sintomas do TOC podem causar um desgaste nos relacionamentos e a
 Muitas pessoas com TOC também têm outros transtornos de saúde mental. Aproximadamente 76% das pessoas com TOC também têm um diagnóstico vitalício de transtorno de ansiedade, aproximadamente 41% têm um diagnóstico vitalício de transtorno depressivo maior, e entre 23% e 32% têm um transtorno de personalidade obsessivo-compulsivo.
 Entre 35% e 50 % das pessoas com TOC têm pensamentos suicidas em algum momento e entre 10% e 15% cometem tentativa de suicídio. O risco de haver uma tentativa de suicídio é maior se a pessoa também tiver transtorno depressivo maior (consulte Comportamento suicida). 
 </p>
-<hr> <br>
+
+<br/>
+<hr> 
           <footer> 
-             © 2024 Portal saúde+ - Todos os direitos Reservados
+             © 2025 Portal saúde+ - Todos os direitos Reservados
           </footer>
 
 </template>

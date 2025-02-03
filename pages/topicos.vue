@@ -44,6 +44,7 @@ ul {
   margin-left: 5px;
   padding: 0;
   text-align: justify; /* Justifica o texto dentro da lista */
+  font-size: 800px;
 }
 
 li {

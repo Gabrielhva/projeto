@@ -24,10 +24,14 @@
  diagnóstico costuma ocorrer aos dois ou três anos de idade. </p> <br/>
  
 
-<ul >  <strong> sinais mais comuns do TEA são: </strong>  <br/> <br>
+<ul >  <strong> Sinais mais comuns do TEA são: </strong>
+   <br/>
+   <br/>
+     
  <li>
      Apresentar atraso anormal na fala;
  </li>
+ 
  <li>
      Não responder quando for chamado e 
      demonstrar desinteresse com as pessoas e objetos ao redor;
@@ -67,7 +71,7 @@
 
          <br/>
          <p> <strong>De acordo com a forma como aparece, o TEA pode ser classificado em três tipos:</strong></p>
-
+         <br/>
          <ul  >
           <li> 
              Autismo clássico: Grau de comprometimento pode variar de muito. De maneira geral, os indivíduos são voltados para si mesmos, não estabelecem contato visual 
@@ -91,26 +95,19 @@
               transtorno, o que torna o diagnóstico muito mais difícil.
           </li> <br/>
        </ul>
-
-       <div>
-          <strong>Causa do Autismo</strong>
-             
-       </div>   
        
          
           <p>
-             Atualmente pensa-se que há múltiplas causas para o autismo, entre elas, fatores genéticos, biológicos e ambientais.
+            <strong>Causa do Autismo: </strong>Atualmente pensa-se que há múltiplas causas para o autismo, entre elas, fatores genéticos, biológicos e ambientais.
               No entanto, saber o que ocorre com o cérebro dessas
               pessoas ainda é um mistério para a ciência.
           </p>
 
-          <div>
-             <strong>Tratamento:</strong>
-          </div>
-          
-             
+          <br/>
+        
          
           <p>
+            <strong>Tratamento:</strong>
              O TEA ainda não tem cura e cada paciente exige um tipo de acompanhamento específico e individualizado que exige a
               participação dos pais, dos familiares e de uma equipe de diferentes profissionais, como médicos, fonoaudiólogos, fisioterapeutas, 
               psicólogos e pedagogos, de forma a incentivar o indivíduo a realizar sozinho tarefas cotidianas, desenvolver formas de se 
@@ -120,6 +117,7 @@
             <div>
                Recomendações para lidar com o autismo:
             </div>
+            <br/>
              
           </p>
           <ul >
@@ -142,13 +140,11 @@
                 transtorno provoca devem ser respeitadas. Há casos em que o melhor é procurar uma instituição que ofereça atendimento mais individualizado.
              </li>
           </ul><br/>
-          <div>
-             <strong> Conclusão</strong>
-          </div>
-         
+      
 
           <P> 
-             Nosso texto traz tudo sobre autismo que você precisa saber. Com ele conhecemos melhor esse transtorno do neurodesenvolvimento, seus principais sinais e até mesmo mitos.
+
+             <strong> Conclusão:</strong> Nosso texto traz tudo sobre autismo que você precisa saber. Com ele conhecemos melhor esse transtorno do neurodesenvolvimento, seus principais sinais e até mesmo mitos.
 
              Também ficou mais claro que o autismo não é uma doença, por isso não existe cura. Mas sim, intervenções e estratégias centradas na pessoa com TEA, pensadas nas suas habilidades
              e desenvolvimento.
@@ -159,7 +155,8 @@
 
          </div>
           
-          <hr> <br>
+         <br/>
+          <hr/> 
           <footer> 
              © 2024 Portal saúde+ - Todos os direitos Reservados
           </footer>

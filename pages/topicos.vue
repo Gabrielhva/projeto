@@ -47,19 +47,28 @@ ul {
 
 li {
   margin-bottom: 20px;
-  background: rgb(135, 236, 211);
-  color: white;
+  background-color: rgb(167, 204, 195);
+  color: rgb(75, 99, 85);
   padding: 10px;
   text-align: justify; /* Altera de center para justify */
   cursor: pointer;
-  border: solid;
-  border-radius: 50px;
+  border-radius: 9px;
+  font-family:monospace ;
+  font-size: 20px;
 }
 
 li:hover {
-  background: darkgreen;
+ background-color: rgb(168, 219, 207);
   transition: 0.3s;
   text-align: justify; /* Altera de center para justify */
+  color: rgb(255, 255, 255);
+  background-color: rgb(142, 197, 189);
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  font-family:monospace ;
+  font-size: 20px;
+  white-space: nowrap;
+  cursor:pointer;
+  color: rgb(75, 99, 85);
 }
 
 .divisao {
@@ -76,6 +85,8 @@ li:hover {
   text-align: justify; /* Mantém o texto justificado */
   font-size: 18px;
   color: rgb(75, 99, 85);
+  margin-left: 10px;
+  margin-right: 35px;
 }
 
 .h2 {
@@ -115,10 +126,10 @@ h1 {
       <li v-on:click="alteraTopicos('bipolaridade')">Bipolaridade</li>
       <li v-on:click="alteraTopicos('borderline')">Borderline</li>
       <li v-on:click="alteraTopicos('esquizofrenia')">Esquizofrenia</li>
-      <li v-on:click="alteraTopicos('Transtorno de estresse pos traumatico')">Transtorno de estresse pós-traumatico</li>
-      <li v-on:click="alteraTopicos('Transtorno obsessivo-compulsivo')">Transtorno Obsessivo-compulsivo</li>
-      <li v-on:click="alteraTopicos('dependencia alcoolica')">Dependencia alcoolica</li>
-      <li v-on:click="alteraTopicos('dependenciadedrogasilicitas')">Dependencia de Drogas Ilicitas</li>
+      <li v-on:click="alteraTopicos('Transtorno de estresse pos traumatico')">Transtorno de Estresse Pós-Traumatico</li>
+      <li v-on:click="alteraTopicos('Transtorno obsessivo-compulsivo')">Transtorno Obsessivo-Compulsivo</li>
+      <li v-on:click="alteraTopicos('dependencia alcoolica')">Dependencia Alcoólica</li>
+      <li v-on:click="alteraTopicos('dependenciadedrogasilicitas')">Dependencia de Drogas Ilícitas</li>
       <li v-on:click="alteraTopicos('dependenciademedicamentos')">Dependencia de Medicamentos</li>
     </ul>
 

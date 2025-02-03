@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <h1>Dependencia alcoólica</h1>
+    <h1>Dependencia Alcoólica</h1>
     <hr><br>
 
     <p>O consumo de bebidas alcoólicas está presente em encontros com amigos, 
@@ -30,7 +30,8 @@
     <li>Sente-se incomodado com críticas sobre o quanto ingere de bebida alcoólica?</li>
     <li>Acha que bebe mais do que gostaria?</li>
     <li>Tem que beber logo que acorda para diminuir o mal-estar?</li><br>
-    <h3>Papel da família</h3> 
+
+    <h3>Papel da família:</h3> 
     <P>Familiares e amigos são, em geral, os primeiros a notarem os prejuízos 
         relacionados ao uso abusivo de álcool. “Primeiro porque, muitas vezes, 
         a pessoa está mais violenta, mais agressiva; segundo porque ela fica bebendo 
@@ -46,12 +47,16 @@
     <h4>Qual é o tratamento do alcoolismo?</h4>
     <p>O objetivo principal do tratamento do alcoolismo é alcançar uma privação (abstinência) de consumo de álcool estável e definitiva. Para isso, é fundamental que haja acompanhamento médico, uma vez que podem ser 
         necessárias várias áreas de intervenção. </p>
-    <ul>Este processo de tratamento pode envolver:</ul>
-    <li>plano de desintoxicação</li>
+   Este processo de tratamento pode envolver:
+   <br/>
+   <br/>
+    <ul><li>plano de desintoxicação</li>
     <li>medicamentos orais ou injetáveis</li>
     <li>aconselhamento psicológico</li>
     <li>grupos de apoio</li>
-    <li>reabilitação</li>
+    <li>reabilitação</li></ul>
+    <br/>
+    
 
     <hr> <br>
           <footer> 

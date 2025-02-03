@@ -45,7 +45,7 @@ import '~/assets/css/contesuahistoria.css'
             <br/><br/>
 
             Sua Experiência:
-            <br/><br/>
+            <br/>
             <textarea rows="10" cols="60" maxlength="500"></textarea>
 
           

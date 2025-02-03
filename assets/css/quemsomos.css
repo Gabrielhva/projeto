@@ -17,11 +17,12 @@
     text-align: center;
     margin-top: 30;
     font-size: 18px;
+    margin-right: 80px;
 
 }
 
 .ajustequemsomos{
-    margin-left: 8px;
+    margin-left: 10px;
     margin-bottom: 20px;
     color: rgb(75, 99, 85);
     text-align:justify;
@@ -31,15 +32,15 @@
 
     color: rgb(75, 99, 85);
     text-align: justify;
-    margin-left: 8px;
+    margin-left: 10px;
     margin-right: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     font-size: 18px;
 
 }
 
 .ajustequemsomos2{
-    margin-left: 8px;
+    margin-right:20 px;
     margin-bottom: 5px;
     color: rgb(75, 99, 85);
     text-align:justify;

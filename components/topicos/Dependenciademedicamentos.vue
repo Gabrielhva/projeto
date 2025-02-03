@@ -7,8 +7,8 @@
 <template>
     <h1>Depedencia de Medicamentos</h1>
     <hr><br>
-     <h3>O Mal do Seculo !</h3> 
-    <strong>Vício em medicamentos: entenda o mal do século</strong>
+    
+    <strong>Vício em medicamentos:</strong>
     <p> Tem sido cada vez mais comum encontrar jovens e adultos com doenças
         relacionadas à saúde mental. Levantamento de setembro de 2019 feito 
         pelo Ministério da Saúde (MS), os atendimentos e internações de pacientes
@@ -21,26 +21,29 @@
         expectativas, muita pressão no trabalho e imediatismo. Esses fatores podem 
         levar as pessoas a ingerirem, por exemplo, medicamentos psicotrópicos para 
         aliviar sofrimentos inerentes à condição humana, como preocupações,
-        frustações, angústias, entre outros. <br/><br/>
+        frustações, angústias, entre outros. <br/>
         Nesse cenário, especialistas da área de saúde se atentam para que a dependência 
         de medicamentos não se instale nas pessoas. Mas, como muitas acabam se 
         automedicando, seja por dificuldade no acesso aos serviços de saúde ou por
         alguma questão pessoal, elas acabam correndo o risco de ter um vício.</p>
 
-    <strong>Perigos da dependência medicamentosa</strong>
+        <br/>
+    <strong>Perigos da dependência medicamentosa:</strong>
     <p>O consumo em excesso de medicamentos pode causar uma série de danos ao nosso 
         organismo, inclusive gerar a chamada farmacodependência. E, nesse sentido, acabar
          tendo abstinência pode se tornar uma realidade, para além de efeitos nocivos como
           perda da memória, sonolência, irritação e dificuldade de concentração.
     </p>
-    <strong>Tratamento </strong>
+
+    <br/>
+    <strong>Tratamento:</strong>
     <p>O vício em medicamentos só pode ser abandonado com tratamento especializado e
          adequado, é o que ressalta Anelise Liduvino Faria Kojo: “Precisa ser tratado 
          como outros vícios, de forma multidisciplinar com equipe composta por médicos, 
          psicólogos e outros profissionais especializados. Em alguns casos são utilizados
          outros medicamentos para tratar os sintomas de abstinência”.</p>
-     
-         <hr> <br>
+         <br/>
+         <hr/> 
           <footer> 
              © 2024 Portal saúde+ - Todos os direitos Reservados
           </footer> <br/>

@@ -40,7 +40,8 @@ function alteraMedico(valor){
 
 <style scoped>
 ul {
-  margin-right: 30px;
+  margin-right: 35px;
+  margin-left: 5px;
   padding: 0;
   text-align: justify; /* Justifica o texto dentro da lista */
 }
@@ -78,6 +79,9 @@ li:hover {
 .topicos {
   text-align: center;
   width: 800px;
+  font-size: 28px;
+  margin-bottom:80px;
+  margin-top: 8px;
 }
 
 .conteudo {
@@ -91,7 +95,7 @@ li:hover {
 
 .h2 {
   text-align: center !important;
-  background: red;
+  background: rgb(61, 52, 52);
 }
 
 .esquerda {

@@ -1,8 +1,10 @@
 <script setup> 
 
 import '~/assets/css/cadastro.css'
+import axios from 'axios'
 
-const params = defineProps(["usuarios", "medicos","clinicas"])
+
+const params = defineProps()
 
 let categoria = ref("usuarios")
 
@@ -22,26 +24,29 @@ function alteraFormulario(valor){
   })
 
   function criarUsuarioConvencional(){
-    params.usuarios.push(usuarioConvencional)
+    const resposta = axios.post("http://10.60.44.45:3000/doctor/create").send(usuarioConvencional)
+  console.log(resposta)
+  medicos = resposta.data.lista
+
     alert("Usuario criado com sucesso !")
     console.log(params.usuarios)
   }
 
   const medicos = reactive({
-
-nome:"",
-senha:"",
-nascimento:"",
-email:"",
-telefone:"",
-crp:"",
-desordem:"",
+    nome:"",
+    senha:"",
+    nascimento:"",
+    senha:"",
+    email:"",
+    telefone:"",
+    crp:"",
+    desordem:""
   })
 
-  function criarProfissional(){
-    params.medicos.push(medicos)
-    alert("Usuario profissional criado com sucesso !")
-    console.log(params.medicos)
+  async function criarProfissional(){
+    //params.medicos.push(medicos)
+    const resposta = await axios.post("http://10.60.44.46:3001/doctor/create", medicos)
+    alert(resposta.data.message)
   }
 
   const clinicas = reactive({
@@ -52,7 +57,7 @@ desordem:"",
     estado:"",
     cidade:"",
     cep:"",
-    nomeUsuario:"",
+    nome:"",
     email:"",
     senha:""
 
@@ -171,7 +176,7 @@ desordem:"",
       <p class="conteudoCadastro">
 
         <label>
-        Data Nascimento: <input v-model="medicos.dataNascimento">
+        Data Nascimento: <input v-model="medicos.nascimento">
         </label>
       
       </p>
@@ -184,6 +189,14 @@ desordem:"",
       </label>
 
       </p>
+
+      <p class="conteudoCadastro">
+
+         <label>
+           Senha: <input v-model="medicos.senha">
+           </label>
+
+</p>
 
 
       <p class="conteudoCadastro">
@@ -309,7 +322,7 @@ Cep: <input v-model="clinicas.cep">
 <p class="conteudoCadastro">
 
   <label>
-Nome do usuario: <input v-model="clinicas.nomeUsuario">
+Nome do usuario: <input v-model="clinicas.nome">
 </label>
 
 

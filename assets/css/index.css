@@ -53,23 +53,19 @@ a{
 }
  
  
-.botao{
+.botaoaaa{
     
     border: none;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    color: rgb(0, 255, 191);
+    background-color: white;
     font-family:monospace ;
     font-size: 30px;
     white-space: nowrap;
     cursor:pointer;
     
 }
-.botao:hover{
-  background-color: #09c49b;
-  color: #ffffff;
-  transform: scale(1.0)
-}
+
  
  
 .container{
@@ -118,40 +114,13 @@ a{
 }
 .distperfil{
    
-    margin-left: 320px;
+    margin-left: 256px;
     margin-right: 10px;
     font-family: monospace;
     font-size: 20px;
     margin-right: 10px;
-
+    color: #07d3a0;
 }
- 
-#divbusca{
-    background-color: #05b9a4;
-    border:solid 1px;
-    border-radius:5px;
-    width:500px;
-    margin-left: 340px;
-   
-  }
- 
-  #txtbusca{
-    float: left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-   
-  }
- 
-  .lupaimg{
-    height: 30px;
-    margin-left: 10px;
-    
-  }
  
 .medicos{
     width: 500px;
@@ -361,7 +330,7 @@ a{
 
 .fundonovo{
   
-  background-color: #07d3a0;
+  background-color: #50bea3;
   width: 1897px;
   height: 1100px;
   margin-top: -60px;
@@ -372,7 +341,7 @@ a{
 
 .fundonovo2{
   
-  background-color: #1ab9b9;
+  background-color: #81c5b4;
   width: 1897px;
   height: 900px;
   margin-top: 50px;

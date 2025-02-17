@@ -45,7 +45,7 @@
      
       <nuxt-link to="/ansiedade" class="card5">
     <div class="card5__header">
-      <img src="/public/ansiedadecd.jpg" alt="card5__image" class="card5__image" width="600">
+      <img src="/public/icon2.png" alt="card5__image" class="card5__image" width="600">
     </div>
     <div class="card5__body">
       <span class="tag tag-blue">Ansiedade</span>
@@ -65,7 +65,7 @@
 
   <nuxt-link to="/esquizofrenia" class="card5">
     <div class="card5__header">
-      <img src="/public/esquizofreniacd.jpg" alt="card5__image" class="card5__image" width="600">
+      <img src="/public/icon3.png" alt="card5__image" class="card5__image" width="600">
     </div>
     <div class="card5__body">
       <span class="tag tag-brown">Esquizofrenia</span>
@@ -85,7 +85,7 @@
 
   <nuxt-link to="/depressao" class="card5">
     <div class="card5__header">
-      <img src="/public/depressaont.jpg" alt="card5__image" class="card5__image ftnt">
+      <img src="/public/icon5.png" alt="card5__image" class="card5__image ftnt">
     </div>
     <div class="card5__body">
       <span class="tag tag-red">Depressão</span>
@@ -105,7 +105,7 @@
 
   <nuxt-link to="/depressao" class="card5">
     <div class="card5__header">
-      <img src="/public/bipolaridadecd.jpg" alt="card5__image" class="card5__image" width="600">
+      <img src="/public/icon6.png" alt="card5__image" class="card5__image" width="600">
     </div>
     <div class="card5__body">
       <span class="tag tag-yellow">Bipolaridade</span>

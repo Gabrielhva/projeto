@@ -43,7 +43,7 @@
   
     <div class="container5">
      
-      <nuxt-link to="/ansiedade" class="card5">
+      <nuxt-link to="/topicos" class="card5">
     <div class="card5__header">
       <img src="/public/icon2.png" alt="card5__image" class="card5__image" width="600">
     </div>
@@ -63,7 +63,7 @@
     </div>
   </nuxt-link>
 
-  <nuxt-link to="/esquizofrenia" class="card5">
+  <nuxt-link to="/topicos" class="card5">
     <div class="card5__header">
       <img src="/public/icon3.png" alt="card5__image" class="card5__image" width="600">
     </div>
@@ -83,7 +83,7 @@
     </div>
   </nuxt-link>
 
-  <nuxt-link to="/depressao" class="card5">
+  <nuxt-link to="/topicos" class="card5">
     <div class="card5__header">
       <img src="/public/icon5.png" alt="card5__image" class="card5__image ftnt">
     </div>
@@ -103,7 +103,7 @@
     </div>
   </nuxt-link>
 
-  <nuxt-link to="/depressao" class="card5">
+  <nuxt-link to="/topicos" class="card5">
     <div class="card5__header">
       <img src="/public/icon6.png" alt="card5__image" class="card5__image" width="600">
     </div>

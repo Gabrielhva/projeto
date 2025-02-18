@@ -1,35 +1,35 @@
 <script setup> 
 
-import '~/assets/css/cadastro.css'
-import axios from 'axios'
+  import '~/assets/css/cadastro.css'
+  import axios from 'axios'
 
 
-const params = defineProps()
+  const params = defineProps()
 
-let categoria = ref("usuarios")
+  let categoria = ref("usuarios")
 
 
 
-function alteraFormulario(valor){
-  categoria.value = valor
-}
+  function alteraFormulario(valor){
+    categoria.value = valor
+  }
 
   const usuarioConvencional= reactive({
-
     nome:"",
     senha:"",
     nascimento:"",
-    email:""
-
+    email:"",
+    type:"comum"
   })
 
-  function criarUsuarioConvencional(){
-    const resposta = axios.post("http://10.60.44.45:3000/doctor/create").send(usuarioConvencional)
-  console.log(resposta)
-  medicos = resposta.data.lista
-
-    alert("Usuario criado com sucesso !")
-    console.log(params.usuarios)
+  async function criarUsuarioConvencional(){
+    try{
+      const resposta = await axios.post("http://10.60.44.28:3001/doctor/create", usuarioConvencional)
+      alert(resposta.data.message)
+    } catch (error) {
+      alert(error.response.data.message)
+    }
+    
   }
 
   const medicos = reactive({
@@ -40,41 +40,42 @@ function alteraFormulario(valor){
     email:"",
     telefone:"",
     crp:"",
-    desordem:""
+    desordem:"",
+    type:"doctor"
   })
 
   async function criarProfissional(){
     //params.medicos.push(medicos)
-    const resposta = await axios.post("http://10.60.44.46:3001/doctor/create", medicos)
-    alert(resposta.data.message)
+    try{
+      const resposta = await axios.post("http://10.60.44.28:3001/doctor/create", medicos)
+      alert(resposta.data.message)
+    } catch (error) {
+      alert(error.response.data.message)
+    }
   }
 
   const clinicas = reactive({
-
     nomeClinica:"", 
     cnpj:"", 
     endereço:"", 
+    nascimento:"",
     estado:"",
     cidade:"",
     cep:"",
     nome:"",
     email:"",
-    senha:""
-
-
-
+    senha:"",
+    type:"clinica"
   })
 
-  function criarClinica(){
-    params.clinicas.push(clinicas)
-    alert("Clinica criado com sucesso !")
-    console.log(params.clinicas)
-
+  async function criarClinica(){
+    try{
+      const resposta = await axios.post("http://10.60.44.28:3001/doctor/create", clinicas)
+      alert(resposta.data.message)
+    } catch (error) {
+      alert(error.response.data.message)
+    }
   }
-
-
-
-
 
 </script>
 
@@ -196,7 +197,7 @@ function alteraFormulario(valor){
            Senha: <input v-model="medicos.senha">
            </label>
 
-</p>
+      </p>
 
 
       <p class="conteudoCadastro">
@@ -216,22 +217,21 @@ function alteraFormulario(valor){
 
      </p>
 
-     <p class="conteudoCadastro">
+    <p class="conteudoCadastro">
 
-    <label>
-    Especialização: <input v-model="medicos.desordem">
-   </label>
+      <label>
+         Especialização: <input v-model="medicos.desordem">
+      </label>
+    </p>
 
-   <p class="conteudoCadastro">
+    <p class="conteudoCadastro">
 
-   <label>
-    Foto: <input img src="https://i.imgur.com/uaNj0Mb.png">
-   </label>
-
-  </p>
-
+      <label>
+        Foto: <input img src="https://i.imgur.com/uaNj0Mb.png">
+      </label>
 
     </p>
+
 
 
 
@@ -277,12 +277,19 @@ CNPJ: <input v-model="clinicas.cnpj">
 
 </p>
 
+<p class="conteudoCadastro">
+
+<label>
+  Data de Fundação: <input v-model="clinicas.nascimento">
+</label>
+
+</p>
 
 
 <p class="conteudoCadastro">
 
   <label>
-Endereço :<input v-model="clinicas.endereco">
+Endereço: <input v-model="clinicas.endereco">
 </label>
 
 
@@ -293,7 +300,7 @@ Endereço :<input v-model="clinicas.endereco">
 <p class="conteudoCadastro">
 
   <label>
-Estado <input v-model="clinicas.estado">
+Estado: <input v-model="clinicas.estado">
 </label>
 
 

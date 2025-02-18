@@ -1,29 +1,25 @@
 <script setup>
+  import '~/assets/css/medlist.css'
+  import axios from 'axios'
 
-import '~/assets/css/medlist.css'
-import axios from 'axios'
+  const medicos = reactive([])
+  let mostrar = ref(-1)
 
-
-async function buscarmed () {
-  const resposta = axios.get("http://10.60.44.45:3000/doctor/read")
-  console.log(resposta)
-  medicos = resposta.data.lista
-}
-
-const medicos = reactive ([])
-
-onMounted(
-  () => {
-    buscarmed()
+  async function buscarmed () {
+    const resposta = await axios.get("http://10.60.44.28:3001/doctor/read")
+    medicos.value = resposta.data.lista
+    console.log(medicos.value)
   }
-)
-
-let mostrar = ref(1)
 
   function alteramostrar(valor){
     mostrar.value = valor
   }
 
+  onMounted(
+    () => {
+      buscarmed()
+    }
+  )
 </script>
 
 
@@ -33,41 +29,39 @@ let mostrar = ref(1)
     
   <div class="ajuste">
 
-    <section v-for="medico in medicos">
+    <section v-for="medico in medicos.value">
+      <div v-if="medico.type == 'doctor'">
 
-      <div v-if="mostrar == medico.id">
-        <div class="modalFade" v-on:click="alteramostrar(-1)"></div>
-          <div class="modalConteudo">      
-            <h2>
-            {{ medico.name }}
-            </h2>
-            <p>{{ medico.desordem }}</p>
-            <p>{{ medico.email }}</p>
-            <p>{{ medico.crp}}</p>
-            <button v-on:click="alteramostrar(-1)">Fechar</button>
+      
+        <div v-if="mostrar == medico.id">
+          <div class="modalFade" v-on:click="alteramostrar(-1)"></div>
+            <div class="modalConteudo">      
+              <h2>
+              {{ medico.name }}
+              </h2>
+              <p>{{ medico.desordem }}</p>
+              <p>{{ medico.email }}</p>
+              <p>{{ medico.crp}}</p>
+              <button v-on:click="alteramostrar(-1)">Fechar</button>
 
+          </div>
         </div>
+        <div class="col-md-4" >
+          <div class="card" style="width: 18rem;">
+            <img v-bind:src=" medico.foto " class="img_perfil_med" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title">{{ medico.nome }}</h5>
+              <h6 class="tipomed">{{ medico.desordem }}</h6>
+      
+              <button v-on:click="()=>alteramostrar" class="btn mr-2"><i class="fa-solid fa-paper-plane"></i> Contatar</button>
+              <button v-on:click="()=>alteramostrar(medico.id)" class="btn"><i class="fa-solid fa-envelope"></i>Email</button>
+
+            </div>
+          </div>
+        </div> 
       </div>
-    <div class="col-md-4" >
-      <div class="card" style="width: 18rem;">
-      <img v-bind:src=" medico.foto " class="img_perfil_med" alt="...">
-
-      <div class="card-body">
-        <h5 class="card-title">{{ medico.nome }}</h5>
-        <h6 class="tipomed">{{ medico.desordem }}</h6>
-    
-       <button v-on:click="()=>alteramostrar" class="btn mr-2"><i class="fa-solid fa-paper-plane"></i> Contatar</button>
-       <button v-on:click="()=>alteramostrar(medico.id)" class="btn"><i class="fa-solid fa-envelope"></i>Email</button>
-
-      </div>
-    </div>
-  </div> 
-
-    </section>
-    
-   
-    
-        
+    </section>       
   </div>
 </div>
 

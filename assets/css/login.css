@@ -21,17 +21,20 @@
 
 .botaologin{
     border: solid 1px rgb(167, 204, 195);
-    border-radius: 8px;
+    border-radius: 5px;
     color: rgb(255, 255, 255);
-    background-color: rgb(135, 236, 211);
+    background-color: rgb(167, 204, 195);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
     font-family:monospace ;
-    font-size: 22px;
+    font-size: 20px;
     white-space: nowrap;
     cursor:pointer;
+    color: rgb(75, 99, 85);
     
-    margin-top: 15px;
-    margin-left: 455px;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    margin-left: 456px;
+    
     
 }
 
@@ -118,7 +121,7 @@
 
 
 .fundologin{
-    background: #ffffff;
+    background: #ffffff;;
     height: 860px;
     margin-top: -191px;
     

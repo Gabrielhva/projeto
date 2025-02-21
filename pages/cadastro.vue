@@ -27,7 +27,7 @@
       const resposta = await axios.post("http://10.60.44.28:3001/doctor/create", usuarioConvencional)
       alert(resposta.data.message)
     } catch (error) {
-      alert(error.response.data.message)
+      alert(error.response.message)
     }
     
   }
@@ -41,7 +41,8 @@
     telefone:"",
     crp:"",
     desordem:"",
-    type:"doctor"
+    type:"doctor",
+    foto:""
   })
 
   async function criarProfissional(){
@@ -50,7 +51,7 @@
       const resposta = await axios.post("http://10.60.44.28:3001/doctor/create", medicos)
       alert(resposta.data.message)
     } catch (error) {
-      alert(error.response.data.message)
+      alert(error.response ? error.response.data.message : "Erro desconhecido");
     }
   }
 
@@ -73,7 +74,7 @@
       const resposta = await axios.post("http://10.60.44.28:3001/doctor/create", clinicas)
       alert(resposta.data.message)
     } catch (error) {
-      alert(error.response.data.message)
+      alert(error.response.message)
     }
   }
 
@@ -227,7 +228,7 @@
     <p class="conteudoCadastro">
 
       <label>
-        Foto: <input img src="https://i.imgur.com/uaNj0Mb.png">
+        Foto: <input v-model="medicos.foto">
       </label>
 
     </p>
